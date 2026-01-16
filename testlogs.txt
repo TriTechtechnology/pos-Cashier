@@ -1,0 +1,1316 @@
+ 🎨 Slot display - currentSlotInfo: Object slotId: D5 displayValue: D5
+ 🎯 Badge render check: Object
+ 🛒 CartOverlay rendered: Object
+ 🛒 CartOverlay - Professional cart state: Object
+ 🛒 CartOverlay - items: Array(3)
+ 🛒 CartOverlay - items.length: 3
+ 🛒 CartOverlay - subtotal: 520
+ 🛒 CartOverlay rendered: Object
+ 🛒 CartOverlay - Professional cart state: Object
+ 🛒 CartOverlay - items: Array(3)
+ 🛒 CartOverlay - items.length: 3
+ 🛒 CartOverlay - subtotal: 520
+ 🚀 [NAV INIT] Effect triggered - Navigation state initialized
+ 🧭 [NAVIGATION PARAMS] slot: D5 type: dine-in mode: edit
+ 🎯 [SLOT INIT] Setting slot ID to: D5
+ 🎯 [SLOT INIT] Calling setCurrentSlot with: D5
+ 🎯 [CART STORE] setCurrentSlot called with: D5
+ ✅ [CART STORE] Slot D5 set successfully
+ 🏷️ [ORDER TYPE] Set to: dine-in
+ ✏️ [EDIT MODE] Loading order for editing: D5
+ ✏️ [OVERLAY STORE] Loading ACTIVE draft order for editing, slot: D5
+ ✅ [OVERLAY STORE] Found active draft order in memory: 0573
+ 🔥 [MENU PAGE] MenuPageContent component rendering...
+ 🔥 [MENU PAGE] MenuPageContent component rendering...
+ 🎨 Slot display - currentSlotInfo: Object slotId: D5 displayValue: D5
+ 🎯 Badge render check: Object
+ 🎨 Slot display - currentSlotInfo: Object slotId: D5 displayValue: D5
+ 🎯 Badge render check: Object
+ 🛒 CartOverlay rendered: Object
+ 🛒 CartOverlay - Professional cart state: Object
+ 🛒 CartOverlay - items: Array(3)
+ 🛒 CartOverlay - items.length: 3
+ 🛒 CartOverlay - subtotal: 520
+ 🛒 CartOverlay rendered: Object
+ 🛒 CartOverlay - Professional cart state: Object
+ 🛒 CartOverlay - items: Array(3)
+ 🛒 CartOverlay - items.length: 3
+ 🛒 CartOverlay - subtotal: 520
+ 🔄 [CART] Loading existing order into slot: D5
+ 📦 [CART] Order items: 3 items
+ 💳 [CART] Payment status for loading: mixed
+ 🔑 [UNIQUE ID] Item 1: Sandwich - uniqueId: item-010-1760765127348-het5rfuek (preserved from overlay)
+ 📋 [CART ITEM 1] isModifierUpgrade: false
+ 🔑 [UNIQUE ID] Item 2: Latte - uniqueId: item-003-1760765136973-fdruu36n5 (preserved from overlay)
+ 📋 [CART ITEM 2] isModifierUpgrade: false
+ 🔑 [UNIQUE ID] Item 3: Latte (modifier upgrade) - uniqueId: item-003-1760765869205-f5t022nts (preserved from overlay)
+ 🔍 [LOAD DEBUG 3] Upgrade item FROM OVERLAY:
+   name: Latte (modifier upgrade)
+   isModifierUpgrade: undefined
+   typeof isModifierUpgrade: undefined
+   item.isModifierUpgrade === true: false
+ 🔒 [MODIFIER UPGRADE ITEM 3] Latte (modifier upgrade) - LOCKED FROM EDITING
+ 📋 [CART ITEM 3] isModifierUpgrade: true
+ 💰 [CART TOTALS] Object
+ 🎯 [ORDER ID SYNC] Setting cart order ID from existing order: 0573
+ 🎯 [CART] Set order ID for slot D5 : 0573
+ ✅ [CART] Successfully loaded existing order into cart
+ 🔥 [MENU PAGE] MenuPageContent component rendering...
+ 🔥 [MENU PAGE] MenuPageContent component rendering...
+ 🎨 Slot display - currentSlotInfo: Object slotId: D5 displayValue: D5
+ 🎯 Badge render check: Object
+ 🎨 Slot display - currentSlotInfo: Object slotId: D5 displayValue: D5
+ 🎯 Badge render check: Object
+ 🛒 CartOverlay rendered: Object
+ 🛒 CartOverlay - Professional cart state: Object
+ 🛒 CartOverlay - items: Array(3)
+ 🛒 CartOverlay - items.length: 3
+ 🛒 CartOverlay - subtotal: 520
+ 🛒 CartOverlay rendered: Object
+ 🛒 CartOverlay - Professional cart state: Object
+ 🛒 CartOverlay - items: Array(3)
+ 🛒 CartOverlay - items.length: 3
+ 🛒 CartOverlay - subtotal: 520
+ 💰 [PAYMENT LOGIC] Object
+ 💰 [PAYMENT LOGIC] Object
+ 🔥 [MENU PAGE] MenuPageContent component rendering...
+ 🔥 [MENU PAGE] MenuPageContent component rendering...
+ 🎨 Slot display - currentSlotInfo: Object slotId: D5 displayValue: D5
+ 🎯 Badge render check: Object
+ 🎨 Slot display - currentSlotInfo: Object slotId: D5 displayValue: D5
+ 🎯 Badge render check: Object
+ 🛒 CartOverlay rendered: Object
+ 🛒 CartOverlay - Professional cart state: Object
+ 🛒 CartOverlay - items: Array(3)
+ 🛒 CartOverlay - items.length: 3
+ 🛒 CartOverlay - subtotal: 520
+ 🛒 CartOverlay rendered: Object
+ 🛒 CartOverlay - Professional cart state: Object
+ 🛒 CartOverlay - items: Array(3)
+ 🛒 CartOverlay - items.length: 3
+ 🛒 CartOverlay - subtotal: 520
+ 🔥 [MENU PAGE] MenuPageContent component rendering...
+ 🔥 [MENU PAGE] MenuPageContent component rendering...
+ 🎨 Slot display - currentSlotInfo: Object slotId: D5 displayValue: D5
+ 🎯 Badge render check: Object
+ 🎨 Slot display - currentSlotInfo: Object slotId: D5 displayValue: D5
+ 🎯 Badge render check: Object
+ 🛒 CartOverlay rendered: Object
+ 🛒 CartOverlay - Professional cart state: Object
+ 🛒 CartOverlay - items: Array(3)
+ 🛒 CartOverlay - items.length: 3
+ 🛒 CartOverlay - subtotal: 520
+ 🛒 CartOverlay rendered: Object
+ 🛒 CartOverlay - Professional cart state: Object
+ 🛒 CartOverlay - items: Array(3)
+ 🛒 CartOverlay - items.length: 3
+ 🛒 CartOverlay - subtotal: 520
+ 🚀 [NAV INIT] Effect triggered - Navigation state initialized
+ 🧭 [NAVIGATION PARAMS] slot: D5 type: dine-in mode: edit
+ 🎯 [SLOT INIT] Setting slot ID to: D5
+ 🎯 [SLOT INIT] Calling setCurrentSlot with: D5
+ 🎯 [CART STORE] setCurrentSlot called with: D5
+ ✅ [CART STORE] Slot D5 set successfully
+ 🏷️ [ORDER TYPE] Set to: dine-in
+ ✏️ [EDIT MODE] Loading order for editing: D5
+ ✏️ [OVERLAY STORE] Loading ACTIVE draft order for editing, slot: D5
+ ✅ [OVERLAY STORE] Found active draft order in memory: 0573
+ 🔥 [MENU PAGE] MenuPageContent component rendering...
+ 🔥 [MENU PAGE] MenuPageContent component rendering...
+ 🎨 Slot display - currentSlotInfo: Object slotId: D5 displayValue: D5
+ 🎯 Badge render check: Object
+ 🎨 Slot display - currentSlotInfo: Object slotId: D5 displayValue: D5
+ 🎯 Badge render check: Object
+ 🛒 CartOverlay rendered: Object
+ 🛒 CartOverlay - Professional cart state: Object
+ 🛒 CartOverlay - items: Array(3)
+ 🛒 CartOverlay - items.length: 3
+ 🛒 CartOverlay - subtotal: 520
+ 🛒 CartOverlay rendered: Object
+ 🛒 CartOverlay - Professional cart state: Object
+ 🛒 CartOverlay - items: Array(3)
+ 🛒 CartOverlay - items.length: 3
+ 🛒 CartOverlay - subtotal: 520
+ 🔄 [CART] Loading existing order into slot: D5
+ 📦 [CART] Order items: 3 items
+ 💳 [CART] Payment status for loading: mixed
+ 🔑 [UNIQUE ID] Item 1: Sandwich - uniqueId: item-010-1760765127348-het5rfuek (preserved from overlay)
+ 📋 [CART ITEM 1] isModifierUpgrade: false
+ 🔑 [UNIQUE ID] Item 2: Latte - uniqueId: item-003-1760765136973-fdruu36n5 (preserved from overlay)
+ 📋 [CART ITEM 2] isModifierUpgrade: false
+ 🔑 [UNIQUE ID] Item 3: Latte (modifier upgrade) - uniqueId: item-003-1760765869205-f5t022nts (preserved from overlay)
+ 🔍 [LOAD DEBUG 3] Upgrade item FROM OVERLAY:
+   name: Latte (modifier upgrade)
+   isModifierUpgrade: undefined
+   typeof isModifierUpgrade: undefined
+   item.isModifierUpgrade === true: false
+ 🔒 [MODIFIER UPGRADE ITEM 3] Latte (modifier upgrade) - LOCKED FROM EDITING
+ 📋 [CART ITEM 3] isModifierUpgrade: true
+ 💰 [CART TOTALS] Object
+ 🎯 [ORDER ID SYNC] Setting cart order ID from existing order: 0573
+ 🎯 [CART] Set order ID for slot D5 : 0573
+ ✅ [CART] Successfully loaded existing order into cart
+ 🔥 [MENU PAGE] MenuPageContent component rendering...
+ 🔥 [MENU PAGE] MenuPageContent component rendering...
+ 🎨 Slot display - currentSlotInfo: Object slotId: D5 displayValue: D5
+ 🎯 Badge render check: Object
+ 🎨 Slot display - currentSlotInfo: Object slotId: D5 displayValue: D5
+ 🎯 Badge render check: Object
+ 🛒 CartOverlay rendered: Object
+ 🛒 CartOverlay - Professional cart state: Object
+ 🛒 CartOverlay - items: Array(3)
+ 🛒 CartOverlay - items.length: 3
+ 🛒 CartOverlay - subtotal: 520
+ 🛒 CartOverlay rendered: Object
+ 🛒 CartOverlay - Professional cart state: Object
+ 🛒 CartOverlay - items: Array(3)
+ 🛒 CartOverlay - items.length: 3
+ 🛒 CartOverlay - subtotal: 520
+ 💰 [PAYMENT LOGIC] Object
+ 💰 [PAYMENT LOGIC] Object
+ 👆 [DOUBLE TAP] Item: Latte isModifierUpgrade: false
+ 👆 [DOUBLE TAP] Item: Latte isModifierUpgrade: false
+ ✅ [DOUBLE TAP] Opening modifier for: Latte
+ 🖱️ [CART] Item clicked - name: Latte
+ 🖱️ [CART] Item clicked - isModifierUpgrade: false
+ 🖱️ [CART] Item clicked - typeof isModifierUpgrade: boolean
+ 🖱️ [CART] Item clicked - isModifierUpgrade === true: false
+ 🖱️ [CART] Item clicked - isPaid: true
+ 🔍 [EDIT ITEM] Editing cart item with uniqueId: item-003-1760765136973-fdruu36n5
+ 🔍 [EDIT ITEM] Original menu ID: item-003
+ 🔍 [EDIT ITEM] Cart item modifiers: Object
+ 🔍 [EDIT ITEM] Cart item quantity: 1
+ 🔍 [EDIT ITEM] Saved selections with quantity: Object
+ 🔥 [MENU PAGE] MenuPageContent component rendering...
+ 🔥 [MENU PAGE] MenuPageContent component rendering...
+ 🎨 Slot display - currentSlotInfo: Object slotId: D5 displayValue: D5
+ 🎯 Badge render check: Object
+ 🎨 Slot display - currentSlotInfo: Object slotId: D5 displayValue: D5
+ 🎯 Badge render check: Object
+ 🛒 CartOverlay rendered: Object
+ 🛒 CartOverlay - Professional cart state: Object
+ 🛒 CartOverlay - items: Array(3)
+ 🛒 CartOverlay - items.length: 3
+ 🛒 CartOverlay - subtotal: 520
+ 🛒 CartOverlay rendered: Object
+ 🛒 CartOverlay - Professional cart state: Object
+ 🛒 CartOverlay - items: Array(3)
+ 🛒 CartOverlay - items.length: 3
+ 🛒 CartOverlay - subtotal: 520
+ 🔥 [MENU PAGE] MenuPageContent component rendering...
+ 🔥 [MENU PAGE] MenuPageContent component rendering...
+ 🎨 Slot display - currentSlotInfo: Object slotId: D5 displayValue: D5
+ 🎯 Badge render check: Object
+ 🎨 Slot display - currentSlotInfo: Object slotId: D5 displayValue: D5
+ 🎯 Badge render check: Object
+ 🛒 CartOverlay rendered: Object
+ 🛒 CartOverlay - Professional cart state: Object
+ 🛒 CartOverlay - items: Array(3)
+ 🛒 CartOverlay - items.length: 3
+ 🛒 CartOverlay - subtotal: 520
+ 🛒 CartOverlay rendered: Object
+ 🛒 CartOverlay - Professional cart state: Object
+ 🛒 CartOverlay - items: Array(3)
+ 🛒 CartOverlay - items.length: 3
+ 🛒 CartOverlay - subtotal: 520
+ 🚀 [NAV INIT] Effect triggered - Navigation state initialized
+ 🧭 [NAVIGATION PARAMS] slot: D5 type: dine-in mode: edit
+ 🎯 [SLOT INIT] Setting slot ID to: D5
+ 🎯 [SLOT INIT] Calling setCurrentSlot with: D5
+ 🎯 [CART STORE] setCurrentSlot called with: D5
+ ✅ [CART STORE] Slot D5 set successfully
+ 🏷️ [ORDER TYPE] Set to: dine-in
+ ✏️ [EDIT MODE] Loading order for editing: D5
+ ✏️ [OVERLAY STORE] Loading ACTIVE draft order for editing, slot: D5
+ ✅ [OVERLAY STORE] Found active draft order in memory: 0573
+ 🔥 [MENU PAGE] MenuPageContent component rendering...
+ 🔥 [MENU PAGE] MenuPageContent component rendering...
+ 🎨 Slot display - currentSlotInfo: Object slotId: D5 displayValue: D5
+ 🎯 Badge render check: Object
+ 🎨 Slot display - currentSlotInfo: Object slotId: D5 displayValue: D5
+ 🎯 Badge render check: Object
+ 🛒 CartOverlay rendered: Object
+ 🛒 CartOverlay - Professional cart state: Object
+ 🛒 CartOverlay - items: Array(3)
+ 🛒 CartOverlay - items.length: 3
+ 🛒 CartOverlay - subtotal: 520
+ 🛒 CartOverlay rendered: Object
+ 🛒 CartOverlay - Professional cart state: Object
+ 🛒 CartOverlay - items: Array(3)
+ 🛒 CartOverlay - items.length: 3
+ 🛒 CartOverlay - subtotal: 520
+ 🔄 [CART] Loading existing order into slot: D5
+ 📦 [CART] Order items: 3 items
+ 💳 [CART] Payment status for loading: mixed
+ 🔑 [UNIQUE ID] Item 1: Sandwich - uniqueId: item-010-1760765127348-het5rfuek (preserved from overlay)
+ 📋 [CART ITEM 1] isModifierUpgrade: false
+ 🔑 [UNIQUE ID] Item 2: Latte - uniqueId: item-003-1760765136973-fdruu36n5 (preserved from overlay)
+ 📋 [CART ITEM 2] isModifierUpgrade: false
+ 🔑 [UNIQUE ID] Item 3: Latte (modifier upgrade) - uniqueId: item-003-1760765869205-f5t022nts (preserved from overlay)
+ 🔍 [LOAD DEBUG 3] Upgrade item FROM OVERLAY:
+   name: Latte (modifier upgrade)
+   isModifierUpgrade: undefined
+   typeof isModifierUpgrade: undefined
+   item.isModifierUpgrade === true: false
+ 🔒 [MODIFIER UPGRADE ITEM 3] Latte (modifier upgrade) - LOCKED FROM EDITING
+ 📋 [CART ITEM 3] isModifierUpgrade: true
+ 💰 [CART TOTALS] Object
+ 🎯 [ORDER ID SYNC] Setting cart order ID from existing order: 0573
+ 🎯 [CART] Set order ID for slot D5 : 0573
+ ✅ [CART] Successfully loaded existing order into cart
+ 🔥 [MENU PAGE] MenuPageContent component rendering...
+ 🔥 [MENU PAGE] MenuPageContent component rendering...
+ 🎨 Slot display - currentSlotInfo: Object slotId: D5 displayValue: D5
+ 🎯 Badge render check: Object
+ 🎨 Slot display - currentSlotInfo: Object slotId: D5 displayValue: D5
+ 🎯 Badge render check: Object
+ 🛒 CartOverlay rendered: Object
+ 🛒 CartOverlay - Professional cart state: Object
+ 🛒 CartOverlay - items: Array(3)
+ 🛒 CartOverlay - items.length: 3
+ 🛒 CartOverlay - subtotal: 520
+ 🛒 CartOverlay rendered: Object
+ 🛒 CartOverlay - Professional cart state: Object
+ 🛒 CartOverlay - items: Array(3)
+ 🛒 CartOverlay - items.length: 3
+ 🛒 CartOverlay - subtotal: 520
+ 💰 [PAYMENT LOGIC] Object
+ 💰 [PAYMENT LOGIC] Object
+ 🔥 [MENU PAGE] MenuPageContent component rendering...
+ 🔥 [MENU PAGE] MenuPageContent component rendering...
+ 🎨 Slot display - currentSlotInfo: Object slotId: D5 displayValue: D5
+ 🎯 Badge render check: Object
+ 🎨 Slot display - currentSlotInfo: Object slotId: D5 displayValue: D5
+ 🎯 Badge render check: Object
+ 🛒 CartOverlay rendered: Object
+ 🛒 CartOverlay - Professional cart state: Object
+ 🛒 CartOverlay - items: Array(3)
+ 🛒 CartOverlay - items.length: 3
+ 🛒 CartOverlay - subtotal: 520
+ 🛒 CartOverlay rendered: Object
+ 🛒 CartOverlay - Professional cart state: Object
+ 🛒 CartOverlay - items: Array(3)
+ 🛒 CartOverlay - items.length: 3
+ 🛒 CartOverlay - subtotal: 520
+ 🚀 [NAV INIT] Effect triggered - Navigation state initialized
+ 🧭 [NAVIGATION PARAMS] slot: D5 type: dine-in mode: edit
+ 🎯 [SLOT INIT] Setting slot ID to: D5
+ 🎯 [SLOT INIT] Calling setCurrentSlot with: D5
+ 🎯 [CART STORE] setCurrentSlot called with: D5
+ ✅ [CART STORE] Slot D5 set successfully
+ 🏷️ [ORDER TYPE] Set to: dine-in
+ ✏️ [EDIT MODE] Loading order for editing: D5
+ ✏️ [OVERLAY STORE] Loading ACTIVE draft order for editing, slot: D5
+ ✅ [OVERLAY STORE] Found active draft order in memory: 0573
+ 🔥 [MENU PAGE] MenuPageContent component rendering...
+ 🔥 [MENU PAGE] MenuPageContent component rendering...
+ 🎨 Slot display - currentSlotInfo: Object slotId: D5 displayValue: D5
+ 🎯 Badge render check: Object
+ 🎨 Slot display - currentSlotInfo: Object slotId: D5 displayValue: D5
+ 🎯 Badge render check: Object
+ 🛒 CartOverlay rendered: Object
+ 🛒 CartOverlay - Professional cart state: Object
+ 🛒 CartOverlay - items: Array(3)
+ 🛒 CartOverlay - items.length: 3
+ 🛒 CartOverlay - subtotal: 520
+ 🛒 CartOverlay rendered: Object
+ 🛒 CartOverlay - Professional cart state: Object
+ 🛒 CartOverlay - items: Array(3)
+ 🛒 CartOverlay - items.length: 3
+ 🛒 CartOverlay - subtotal: 520
+ 🔄 [CART] Loading existing order into slot: D5
+ 📦 [CART] Order items: 3 items
+ 💳 [CART] Payment status for loading: mixed
+ 🔑 [UNIQUE ID] Item 1: Sandwich - uniqueId: item-010-1760765127348-het5rfuek (preserved from overlay)
+ 📋 [CART ITEM 1] isModifierUpgrade: false
+ 🔑 [UNIQUE ID] Item 2: Latte - uniqueId: item-003-1760765136973-fdruu36n5 (preserved from overlay)
+ 📋 [CART ITEM 2] isModifierUpgrade: false
+ 🔑 [UNIQUE ID] Item 3: Latte (modifier upgrade) - uniqueId: item-003-1760765869205-f5t022nts (preserved from overlay)
+ 🔍 [LOAD DEBUG 3] Upgrade item FROM OVERLAY:
+   name: Latte (modifier upgrade)
+   isModifierUpgrade: undefined
+   typeof isModifierUpgrade: undefined
+   item.isModifierUpgrade === true: false
+ 🔒 [MODIFIER UPGRADE ITEM 3] Latte (modifier upgrade) - LOCKED FROM EDITING
+ 📋 [CART ITEM 3] isModifierUpgrade: true
+ 💰 [CART TOTALS] Object
+ 🎯 [ORDER ID SYNC] Setting cart order ID from existing order: 0573
+ 🎯 [CART] Set order ID for slot D5 : 0573
+ ✅ [CART] Successfully loaded existing order into cart
+ 🔥 [MENU PAGE] MenuPageContent component rendering...
+ 🔥 [MENU PAGE] MenuPageContent component rendering...
+ 🎨 Slot display - currentSlotInfo: Object slotId: D5 displayValue: D5
+ 🎯 Badge render check: Object
+ 🎨 Slot display - currentSlotInfo: Object slotId: D5 displayValue: D5
+ 🎯 Badge render check: Object
+ 🛒 CartOverlay rendered: Object
+ 🛒 CartOverlay - Professional cart state: Object
+ 🛒 CartOverlay - items: Array(3)
+ 🛒 CartOverlay - items.length: 3
+ 🛒 CartOverlay - subtotal: 520
+ 🛒 CartOverlay rendered: Object
+ 🛒 CartOverlay - Professional cart state: Object
+ 🛒 CartOverlay - items: Array(3)
+ 🛒 CartOverlay - items.length: 3
+ 🛒 CartOverlay - subtotal: 520
+ 💰 [PAYMENT LOGIC] Object
+ 💰 [PAYMENT LOGIC] Object
+ 🔥 [MENU PAGE] MenuPageContent component rendering...
+ 🔥 [MENU PAGE] MenuPageContent component rendering...
+ 🎨 Slot display - currentSlotInfo: Object slotId: D5 displayValue: D5
+ 🎯 Badge render check: Object
+ 🎨 Slot display - currentSlotInfo: Object slotId: D5 displayValue: D5
+ 🎯 Badge render check: Object
+ 🛒 CartOverlay rendered: Object
+ 🛒 CartOverlay - Professional cart state: Object
+ 🛒 CartOverlay - items: Array(3)
+ 🛒 CartOverlay - items.length: 3
+ 🛒 CartOverlay - subtotal: 520
+ 🛒 CartOverlay rendered: Object
+ 🛒 CartOverlay - Professional cart state: Object
+ 🛒 CartOverlay - items: Array(3)
+ 🛒 CartOverlay - items.length: 3
+ 🛒 CartOverlay - subtotal: 520
+ 🚀 [NAV INIT] Effect triggered - Navigation state initialized
+ 🧭 [NAVIGATION PARAMS] slot: D5 type: dine-in mode: edit
+ 🎯 [SLOT INIT] Setting slot ID to: D5
+ 🎯 [SLOT INIT] Calling setCurrentSlot with: D5
+ 🎯 [CART STORE] setCurrentSlot called with: D5
+ ✅ [CART STORE] Slot D5 set successfully
+ 🏷️ [ORDER TYPE] Set to: dine-in
+ ✏️ [EDIT MODE] Loading order for editing: D5
+ ✏️ [OVERLAY STORE] Loading ACTIVE draft order for editing, slot: D5
+ ✅ [OVERLAY STORE] Found active draft order in memory: 0573
+ 🔥 [MENU PAGE] MenuPageContent component rendering...
+ 🔥 [MENU PAGE] MenuPageContent component rendering...
+ 🎨 Slot display - currentSlotInfo: Object slotId: D5 displayValue: D5
+ 🎯 Badge render check: Object
+ 🎨 Slot display - currentSlotInfo: Object slotId: D5 displayValue: D5
+ 🎯 Badge render check: Object
+ 🛒 CartOverlay rendered: Object
+ 🛒 CartOverlay - Professional cart state: Object
+ 🛒 CartOverlay - items: Array(3)
+ 🛒 CartOverlay - items.length: 3
+ 🛒 CartOverlay - subtotal: 520
+ 🛒 CartOverlay rendered: Object
+ 🛒 CartOverlay - Professional cart state: Object
+ 🛒 CartOverlay - items: Array(3)
+ 🛒 CartOverlay - items.length: 3
+ 🛒 CartOverlay - subtotal: 520
+ 🔄 [CART] Loading existing order into slot: D5
+ 📦 [CART] Order items: 3 items
+ 💳 [CART] Payment status for loading: mixed
+ 🔑 [UNIQUE ID] Item 1: Sandwich - uniqueId: item-010-1760765127348-het5rfuek (preserved from overlay)
+ 📋 [CART ITEM 1] isModifierUpgrade: false
+ 🔑 [UNIQUE ID] Item 2: Latte - uniqueId: item-003-1760765136973-fdruu36n5 (preserved from overlay)
+ 📋 [CART ITEM 2] isModifierUpgrade: false
+ 🔑 [UNIQUE ID] Item 3: Latte (modifier upgrade) - uniqueId: item-003-1760765869205-f5t022nts (preserved from overlay)
+ 🔍 [LOAD DEBUG 3] Upgrade item FROM OVERLAY:
+   name: Latte (modifier upgrade)
+   isModifierUpgrade: undefined
+   typeof isModifierUpgrade: undefined
+   item.isModifierUpgrade === true: false
+ 🔒 [MODIFIER UPGRADE ITEM 3] Latte (modifier upgrade) - LOCKED FROM EDITING
+ 📋 [CART ITEM 3] isModifierUpgrade: true
+ 💰 [CART TOTALS] Object
+ 🎯 [ORDER ID SYNC] Setting cart order ID from existing order: 0573
+ 🎯 [CART] Set order ID for slot D5 : 0573
+ ✅ [CART] Successfully loaded existing order into cart
+ 🔥 [MENU PAGE] MenuPageContent component rendering...
+ 🔥 [MENU PAGE] MenuPageContent component rendering...
+ 🎨 Slot display - currentSlotInfo: Object slotId: D5 displayValue: D5
+ 🎯 Badge render check: Object
+ 🎨 Slot display - currentSlotInfo: Object slotId: D5 displayValue: D5
+ 🎯 Badge render check: Object
+ 🛒 CartOverlay rendered: Object
+ 🛒 CartOverlay - Professional cart state: Object
+ 🛒 CartOverlay - items: Array(3)
+ 🛒 CartOverlay - items.length: 3
+ 🛒 CartOverlay - subtotal: 520
+ 🛒 CartOverlay rendered: Object
+ 🛒 CartOverlay - Professional cart state: Object
+ 🛒 CartOverlay - items: Array(3)
+ 🛒 CartOverlay - items.length: 3
+ 🛒 CartOverlay - subtotal: 520
+ 💰 [PAYMENT LOGIC] Object
+ 💰 [PAYMENT LOGIC] Object
+ 🎯 [ITEM MODIFIER] handleAddToCart called Object
+ 🎯 [ITEM MODIFIER] prepareCartItem result: valid
+ 🎯 [ITEM MODIFIER] Calling onAddToCart for editing: Object
+ 🎯 [handleModifierAddToCart] CALLED with: Object
+ 🔄 [EDIT ITEM] Updating item with uniqueId: item-003-1760765136973-fdruu36n5
+ 🔄 [EDIT ITEM] New modifiers: Object
+ 🔄 [EDIT ITEM] New quantity: 1
+ 🔍 [updateItemModifiers] Called with uniqueId: item-003-1760765136973-fdruu36n5
+ 🔍 [updateItemModifiers] currentSlotId: D5
+ 🔍 [updateItemModifiers] Current cart items: Sandwich: item-010-1760765127348-het5rfuek, Latte: item-003-1760765136973-fdruu36n5, Latte (modifier upgrade): item-003-1760765869205-f5t022nts
+ 🔍 [updateItemModifiers] Looking for uniqueId: item-003-1760765136973-fdruu36n5
+ 🔍 [updateItemModifiers] Target item found: true
+ 🔍 [UPDATE MODIFIERS DEBUG] Object
+ 💰 [PAID ITEM EDIT] Object
+ 🔄 [SYNC SERVICE] Syncing cart to overlay: 0573
+ 🔍 [SYNC DEBUG 3] Upgrade item BEFORE mapping:
+   name: Latte (modifier upgrade)
+   isModifierUpgrade: true
+   typeof isModifierUpgrade: boolean
+   uniqueId: item-003-1760765869205-f5t022nts
+ 🔍 [SYNC DEBUG 3] Upgrade item AFTER mapping:
+   name: Latte (modifier upgrade)
+   isModifierUpgrade: true
+   typeof isModifierUpgrade: boolean
+   uniqueId: item-003-1760765869205-f5t022nts
+ 🔍 [OVERLAY STORE] Item 3 BEFORE IndexedDB save:
+   name: Latte (modifier upgrade)
+   isModifierUpgrade: true
+   typeof isModifierUpgrade: boolean
+ 🔄 [EDIT ITEM] Desired quantity: 1
+ 🔄 [SYNC SERVICE] Syncing cart to overlay: 0573
+ 🔍 [SYNC DEBUG 3] Upgrade item BEFORE mapping:
+   name: Latte (modifier upgrade)
+   isModifierUpgrade: true
+   typeof isModifierUpgrade: boolean
+   uniqueId: item-003-1760765869205-f5t022nts
+ 🔍 [SYNC DEBUG 3] Upgrade item AFTER mapping:
+   name: Latte (modifier upgrade)
+   isModifierUpgrade: true
+   typeof isModifierUpgrade: boolean
+   uniqueId: item-003-1760765869205-f5t022nts
+ 🔍 [OVERLAY STORE] Item 3 BEFORE IndexedDB save:
+   name: Latte (modifier upgrade)
+   isModifierUpgrade: true
+   typeof isModifierUpgrade: boolean
+ ✅ [EDIT ITEM] Item updated successfully
+ 🔥 [MENU PAGE] MenuPageContent component rendering...
+ 🔥 [MENU PAGE] MenuPageContent component rendering...
+ 🎨 Slot display - currentSlotInfo: Object slotId: D5 displayValue: D5
+ 🎯 Badge render check: Object
+ 🎨 Slot display - currentSlotInfo: Object slotId: D5 displayValue: D5
+ 🎯 Badge render check: Object
+ 🛒 CartOverlay rendered: Object
+ 🛒 CartOverlay - Professional cart state: Object
+ 🛒 CartOverlay - items: Array(3)
+ 🛒 CartOverlay - items.length: 3
+ 🛒 CartOverlay - subtotal: 520
+ 🛒 CartOverlay rendered: Object
+ 🛒 CartOverlay - Professional cart state: Object
+ 🛒 CartOverlay - items: Array(3)
+ 🛒 CartOverlay - items.length: 3
+ 🛒 CartOverlay - subtotal: 520
+ 💰 [PAYMENT LOGIC] Object
+ 💰 [PAYMENT LOGIC] Object
+ 🔥 [MENU PAGE] MenuPageContent component rendering...
+ 🔥 [MENU PAGE] MenuPageContent component rendering...
+ 🎨 Slot display - currentSlotInfo: Object slotId: D5 displayValue: D5
+ 🎯 Badge render check: Object
+ 🎨 Slot display - currentSlotInfo: Object slotId: D5 displayValue: D5
+ 🎯 Badge render check: Object
+ 🛒 CartOverlay rendered: Object
+ 🛒 CartOverlay - Professional cart state: Object
+ 🛒 CartOverlay - items: Array(3)
+ 🛒 CartOverlay - items.length: 3
+ 🛒 CartOverlay - subtotal: 520
+ 🛒 CartOverlay rendered: Object
+ 🛒 CartOverlay - Professional cart state: Object
+ 🛒 CartOverlay - items: Array(3)
+ 🛒 CartOverlay - items.length: 3
+ 🛒 CartOverlay - subtotal: 520
+ 🚀 [NAV INIT] Effect triggered - Navigation state initialized
+ 🧭 [NAVIGATION PARAMS] slot: D5 type: dine-in mode: edit
+ 🎯 [SLOT INIT] Setting slot ID to: D5
+ 🎯 [SLOT INIT] Calling setCurrentSlot with: D5
+ 🎯 [CART STORE] setCurrentSlot called with: D5
+ ✅ [CART STORE] Slot D5 set successfully
+ 🏷️ [ORDER TYPE] Set to: dine-in
+ ✏️ [EDIT MODE] Loading order for editing: D5
+ ✏️ [OVERLAY STORE] Loading ACTIVE draft order for editing, slot: D5
+ ✅ [OVERLAY STORE] Found active draft order in memory: 0573
+ 🔥 [MENU PAGE] MenuPageContent component rendering...
+ 🔥 [MENU PAGE] MenuPageContent component rendering...
+ 🎨 Slot display - currentSlotInfo: Object slotId: D5 displayValue: D5
+ 🎯 Badge render check: Object
+ 🎨 Slot display - currentSlotInfo: Object slotId: D5 displayValue: D5
+ 🎯 Badge render check: Object
+ 🛒 CartOverlay rendered: Object
+ 🛒 CartOverlay - Professional cart state: Object
+ 🛒 CartOverlay - items: Array(3)
+ 🛒 CartOverlay - items.length: 3
+ 🛒 CartOverlay - subtotal: 520
+ 🛒 CartOverlay rendered: Object
+ 🛒 CartOverlay - Professional cart state: Object
+ 🛒 CartOverlay - items: Array(3)
+ 🛒 CartOverlay - items.length: 3
+ 🛒 CartOverlay - subtotal: 520
+ 🔄 [CART] Loading existing order into slot: D5
+ 📦 [CART] Order items: 3 items
+ 💳 [CART] Payment status for loading: mixed
+ 🔑 [UNIQUE ID] Item 1: Sandwich - uniqueId: item-010-1760765127348-het5rfuek (preserved from overlay)
+ 📋 [CART ITEM 1] isModifierUpgrade: false
+ 🔑 [UNIQUE ID] Item 2: Latte - uniqueId: item-003-1760765136973-fdruu36n5 (preserved from overlay)
+ 📋 [CART ITEM 2] isModifierUpgrade: false
+ 🔑 [UNIQUE ID] Item 3: Latte (modifier upgrade) - uniqueId: item-003-1760765869205-f5t022nts (preserved from overlay)
+ 🔍 [LOAD DEBUG 3] Upgrade item FROM OVERLAY:
+   name: Latte (modifier upgrade)
+   isModifierUpgrade: undefined
+   typeof isModifierUpgrade: undefined
+   item.isModifierUpgrade === true: false
+ 🔒 [MODIFIER UPGRADE ITEM 3] Latte (modifier upgrade) - LOCKED FROM EDITING
+ 📋 [CART ITEM 3] isModifierUpgrade: true
+ 💰 [CART TOTALS] Object
+ 🎯 [ORDER ID SYNC] Setting cart order ID from existing order: 0573
+ 🎯 [CART] Set order ID for slot D5 : 0573
+ ✅ [CART] Successfully loaded existing order into cart
+ 🔥 [MENU PAGE] MenuPageContent component rendering...
+ 🔥 [MENU PAGE] MenuPageContent component rendering...
+ 🎨 Slot display - currentSlotInfo: Object slotId: D5 displayValue: D5
+ 🎯 Badge render check: Object
+ 🎨 Slot display - currentSlotInfo: Object slotId: D5 displayValue: D5
+ 🎯 Badge render check: Object
+ 🛒 CartOverlay rendered: Object
+ 🛒 CartOverlay - Professional cart state: Object
+ 🛒 CartOverlay - items: Array(3)
+ 🛒 CartOverlay - items.length: 3
+ 🛒 CartOverlay - subtotal: 520
+ 🛒 CartOverlay rendered: Object
+ 🛒 CartOverlay - Professional cart state: Object
+ 🛒 CartOverlay - items: Array(3)
+ 🛒 CartOverlay - items.length: 3
+ 🛒 CartOverlay - subtotal: 520
+ 💰 [PAYMENT LOGIC] Object
+ 💰 [PAYMENT LOGIC] Object
+ 🔍 [OVERLAY DB] Item 3 READ BACK from IndexedDB:
+   name: Latte (modifier upgrade)
+   isModifierUpgrade: true
+   typeof isModifierUpgrade: boolean
+ ✅ [SYNC SERVICE] Cart synced successfully: 0573
+ 🔍 [OVERLAY DB] Item 3 READ BACK from IndexedDB:
+   name: Latte (modifier upgrade)
+   isModifierUpgrade: true
+   typeof isModifierUpgrade: boolean
+ ✅ [SYNC SERVICE] Cart synced successfully: 0573
+ 🔥 [MENU PAGE] MenuPageContent component rendering...
+ 🔥 [MENU PAGE] MenuPageContent component rendering...
+ 🎨 Slot display - currentSlotInfo: Object slotId: D5 displayValue: D5
+ 🎯 Badge render check: Object
+ 🎨 Slot display - currentSlotInfo: Object slotId: D5 displayValue: D5
+ 🎯 Badge render check: Object
+ 🛒 CartOverlay rendered: Object
+ 🛒 CartOverlay - Professional cart state: Object
+ 🛒 CartOverlay - items: Array(3)
+ 🛒 CartOverlay - items.length: 3
+ 🛒 CartOverlay - subtotal: 520
+ 🛒 CartOverlay rendered: Object
+ 🛒 CartOverlay - Professional cart state: Object
+ 🛒 CartOverlay - items: Array(3)
+ 🛒 CartOverlay - items.length: 3
+ 🛒 CartOverlay - subtotal: 520
+ 🔥 [MENU PAGE] MenuPageContent component rendering...
+ 🔥 [MENU PAGE] MenuPageContent component rendering...
+ 🎨 Slot display - currentSlotInfo: Object slotId: D5 displayValue: D5
+ 🎯 Badge render check: Object
+ 🎨 Slot display - currentSlotInfo: Object slotId: D5 displayValue: D5
+ 🎯 Badge render check: Object
+ 🛒 CartOverlay rendered: Object
+ 🛒 CartOverlay - Professional cart state: Object
+ 🛒 CartOverlay - items: Array(3)
+ 🛒 CartOverlay - items.length: 3
+ 🛒 CartOverlay - subtotal: 520
+ 🛒 CartOverlay rendered: Object
+ 🛒 CartOverlay - Professional cart state: Object
+ 🛒 CartOverlay - items: Array(3)
+ 🛒 CartOverlay - items.length: 3
+ 🛒 CartOverlay - subtotal: 520
+ 🚀 [NAV INIT] Effect triggered - Navigation state initialized
+ 🧭 [NAVIGATION PARAMS] slot: D5 type: dine-in mode: edit
+ 🎯 [SLOT INIT] Setting slot ID to: D5
+ 🎯 [SLOT INIT] Calling setCurrentSlot with: D5
+ 🎯 [CART STORE] setCurrentSlot called with: D5
+ ✅ [CART STORE] Slot D5 set successfully
+ 🏷️ [ORDER TYPE] Set to: dine-in
+ ✏️ [EDIT MODE] Loading order for editing: D5
+ ✏️ [OVERLAY STORE] Loading ACTIVE draft order for editing, slot: D5
+ ✅ [OVERLAY STORE] Found active draft order in memory: 0573
+ 🔥 [MENU PAGE] MenuPageContent component rendering...
+ 🔥 [MENU PAGE] MenuPageContent component rendering...
+ 🎨 Slot display - currentSlotInfo: Object slotId: D5 displayValue: D5
+ 🎯 Badge render check: Object
+ 🎨 Slot display - currentSlotInfo: Object slotId: D5 displayValue: D5
+ 🎯 Badge render check: Object
+ 🛒 CartOverlay rendered: Object
+ 🛒 CartOverlay - Professional cart state: Object
+ 🛒 CartOverlay - items: Array(3)
+ 🛒 CartOverlay - items.length: 3
+ 🛒 CartOverlay - subtotal: 520
+ 🛒 CartOverlay rendered: Object
+ 🛒 CartOverlay - Professional cart state: Object
+ 🛒 CartOverlay - items: Array(3)
+ 🛒 CartOverlay - items.length: 3
+ 🛒 CartOverlay - subtotal: 520
+ 🔄 [CART] Loading existing order into slot: D5
+ 📦 [CART] Order items: 3 items
+ 💳 [CART] Payment status for loading: mixed
+ 🔑 [UNIQUE ID] Item 1: Sandwich - uniqueId: item-010-1760765127348-het5rfuek (preserved from overlay)
+ 📋 [CART ITEM 1] isModifierUpgrade: false
+ 🔑 [UNIQUE ID] Item 2: Latte - uniqueId: item-003-1760765136973-fdruu36n5 (preserved from overlay)
+ 📋 [CART ITEM 2] isModifierUpgrade: false
+ 🔑 [UNIQUE ID] Item 3: Latte (modifier upgrade) - uniqueId: item-003-1760765869205-f5t022nts (preserved from overlay)
+ 🔍 [LOAD DEBUG 3] Upgrade item FROM OVERLAY:
+   name: Latte (modifier upgrade)
+   isModifierUpgrade: undefined
+   typeof isModifierUpgrade: undefined
+   item.isModifierUpgrade === true: false
+ 🔒 [MODIFIER UPGRADE ITEM 3] Latte (modifier upgrade) - LOCKED FROM EDITING
+ 📋 [CART ITEM 3] isModifierUpgrade: true
+ 💰 [CART TOTALS] Object
+ 🎯 [ORDER ID SYNC] Setting cart order ID from existing order: 0573
+ 🎯 [CART] Set order ID for slot D5 : 0573
+ ✅ [CART] Successfully loaded existing order into cart
+ 🔥 [MENU PAGE] MenuPageContent component rendering...
+ 🔥 [MENU PAGE] MenuPageContent component rendering...
+ 🎨 Slot display - currentSlotInfo: Object slotId: D5 displayValue: D5
+ 🎯 Badge render check: Object
+ 🎨 Slot display - currentSlotInfo: Object slotId: D5 displayValue: D5
+ 🎯 Badge render check: Object
+ 🛒 CartOverlay rendered: Object
+ 🛒 CartOverlay - Professional cart state: Object
+ 🛒 CartOverlay - items: Array(3)
+ 🛒 CartOverlay - items.length: 3
+ 🛒 CartOverlay - subtotal: 520
+ 🛒 CartOverlay rendered: Object
+ 🛒 CartOverlay - Professional cart state: Object
+ 🛒 CartOverlay - items: Array(3)
+ 🛒 CartOverlay - items.length: 3
+ 🛒 CartOverlay - subtotal: 520
+ 💰 [PAYMENT LOGIC] Object
+ 💰 [PAYMENT LOGIC] Object
+ 🔥 [MENU PAGE] MenuPageContent component rendering...
+ 🔥 [MENU PAGE] MenuPageContent component rendering...
+ 🎨 Slot display - currentSlotInfo: Object slotId: D5 displayValue: D5
+ 🎯 Badge render check: Object
+ 🎨 Slot display - currentSlotInfo: Object slotId: D5 displayValue: D5
+ 🎯 Badge render check: Object
+ 🛒 CartOverlay rendered: Object
+ 🛒 CartOverlay - Professional cart state: Object
+ 🛒 CartOverlay - items: Array(3)
+ 🛒 CartOverlay - items.length: 3
+ 🛒 CartOverlay - subtotal: 520
+ 🛒 CartOverlay rendered: Object
+ 🛒 CartOverlay - Professional cart state: Object
+ 🛒 CartOverlay - items: Array(3)
+ 🛒 CartOverlay - items.length: 3
+ 🛒 CartOverlay - subtotal: 520
+ 🚀 [NAV INIT] Effect triggered - Navigation state initialized
+ 🧭 [NAVIGATION PARAMS] slot: D5 type: dine-in mode: edit
+ 🎯 [SLOT INIT] Setting slot ID to: D5
+ 🎯 [SLOT INIT] Calling setCurrentSlot with: D5
+ 🎯 [CART STORE] setCurrentSlot called with: D5
+ ✅ [CART STORE] Slot D5 set successfully
+ 🏷️ [ORDER TYPE] Set to: dine-in
+ ✏️ [EDIT MODE] Loading order for editing: D5
+ ✏️ [OVERLAY STORE] Loading ACTIVE draft order for editing, slot: D5
+ ✅ [OVERLAY STORE] Found active draft order in memory: 0573
+ 🔥 [MENU PAGE] MenuPageContent component rendering...
+ 🔥 [MENU PAGE] MenuPageContent component rendering...
+ 🎨 Slot display - currentSlotInfo: Object slotId: D5 displayValue: D5
+ 🎯 Badge render check: Object
+ 🎨 Slot display - currentSlotInfo: Object slotId: D5 displayValue: D5
+ 🎯 Badge render check: Object
+ 🛒 CartOverlay rendered: Object
+ 🛒 CartOverlay - Professional cart state: Object
+ 🛒 CartOverlay - items: Array(3)
+ 🛒 CartOverlay - items.length: 3
+ 🛒 CartOverlay - subtotal: 520
+ 🛒 CartOverlay rendered: Object
+ 🛒 CartOverlay - Professional cart state: Object
+ 🛒 CartOverlay - items: Array(3)
+ 🛒 CartOverlay - items.length: 3
+ 🛒 CartOverlay - subtotal: 520
+ 🔄 [CART] Loading existing order into slot: D5
+ 📦 [CART] Order items: 3 items
+ 💳 [CART] Payment status for loading: mixed
+ 🔑 [UNIQUE ID] Item 1: Sandwich - uniqueId: item-010-1760765127348-het5rfuek (preserved from overlay)
+ 📋 [CART ITEM 1] isModifierUpgrade: false
+ 🔑 [UNIQUE ID] Item 2: Latte - uniqueId: item-003-1760765136973-fdruu36n5 (preserved from overlay)
+ 📋 [CART ITEM 2] isModifierUpgrade: false
+ 🔑 [UNIQUE ID] Item 3: Latte (modifier upgrade) - uniqueId: item-003-1760765869205-f5t022nts (preserved from overlay)
+ 🔍 [LOAD DEBUG 3] Upgrade item FROM OVERLAY:
+   name: Latte (modifier upgrade)
+   isModifierUpgrade: undefined
+   typeof isModifierUpgrade: undefined
+   item.isModifierUpgrade === true: false
+ 🔒 [MODIFIER UPGRADE ITEM 3] Latte (modifier upgrade) - LOCKED FROM EDITING
+ 📋 [CART ITEM 3] isModifierUpgrade: true
+ 💰 [CART TOTALS] Object
+ 🎯 [ORDER ID SYNC] Setting cart order ID from existing order: 0573
+ 🎯 [CART] Set order ID for slot D5 : 0573
+ ✅ [CART] Successfully loaded existing order into cart
+ 🔥 [MENU PAGE] MenuPageContent component rendering...
+ 🔥 [MENU PAGE] MenuPageContent component rendering...
+ 🎨 Slot display - currentSlotInfo: Object slotId: D5 displayValue: D5
+ 🎯 Badge render check: Object
+ 🎨 Slot display - currentSlotInfo: Object slotId: D5 displayValue: D5
+ 🎯 Badge render check: Object
+ 🛒 CartOverlay rendered: Object
+ 🛒 CartOverlay - Professional cart state: Object
+ 🛒 CartOverlay - items: Array(3)
+ 🛒 CartOverlay - items.length: 3
+ 🛒 CartOverlay - subtotal: 520
+ 🛒 CartOverlay rendered: Object
+ 🛒 CartOverlay - Professional cart state: Object
+ 🛒 CartOverlay - items: Array(3)
+ 🛒 CartOverlay - items.length: 3
+ 🛒 CartOverlay - subtotal: 520
+ 💰 [PAYMENT LOGIC] Object
+ 💰 [PAYMENT LOGIC] Object
+ 🔥 [MENU PAGE] MenuPageContent component rendering...
+ 🔥 [MENU PAGE] MenuPageContent component rendering...
+ 🎨 Slot display - currentSlotInfo: Object slotId: D5 displayValue: D5
+ 🎯 Badge render check: Object
+ 🎨 Slot display - currentSlotInfo: Object slotId: D5 displayValue: D5
+ 🎯 Badge render check: Object
+ 🛒 CartOverlay rendered: Object
+ 🛒 CartOverlay - Professional cart state: Object
+ 🛒 CartOverlay - items: Array(3)
+ 🛒 CartOverlay - items.length: 3
+ 🛒 CartOverlay - subtotal: 520
+ 🛒 CartOverlay rendered: Object
+ 🛒 CartOverlay - Professional cart state: Object
+ 🛒 CartOverlay - items: Array(3)
+ 🛒 CartOverlay - items.length: 3
+ 🛒 CartOverlay - subtotal: 520
+ 🚀 [NAV INIT] Effect triggered - Navigation state initialized
+ 🧭 [NAVIGATION PARAMS] slot: D5 type: dine-in mode: edit
+ 🎯 [SLOT INIT] Setting slot ID to: D5
+ 🎯 [SLOT INIT] Calling setCurrentSlot with: D5
+ 🎯 [CART STORE] setCurrentSlot called with: D5
+ ✅ [CART STORE] Slot D5 set successfully
+ 🏷️ [ORDER TYPE] Set to: dine-in
+ ✏️ [EDIT MODE] Loading order for editing: D5
+ ✏️ [OVERLAY STORE] Loading ACTIVE draft order for editing, slot: D5
+ ✅ [OVERLAY STORE] Found active draft order in memory: 0573
+ 🔥 [MENU PAGE] MenuPageContent component rendering...
+ 🔥 [MENU PAGE] MenuPageContent component rendering...
+ 🎨 Slot display - currentSlotInfo: Object slotId: D5 displayValue: D5
+ 🎯 Badge render check: Object
+ 🎨 Slot display - currentSlotInfo: Object slotId: D5 displayValue: D5
+ 🎯 Badge render check: Object
+ 🛒 CartOverlay rendered: Object
+ 🛒 CartOverlay - Professional cart state: Object
+ 🛒 CartOverlay - items: Array(3)
+ 🛒 CartOverlay - items.length: 3
+ 🛒 CartOverlay - subtotal: 520
+ 🛒 CartOverlay rendered: Object
+ 🛒 CartOverlay - Professional cart state: Object
+ 🛒 CartOverlay - items: Array(3)
+ 🛒 CartOverlay - items.length: 3
+ 🛒 CartOverlay - subtotal: 520
+ 🔄 [CART] Loading existing order into slot: D5
+ 📦 [CART] Order items: 3 items
+ 💳 [CART] Payment status for loading: mixed
+ 🔑 [UNIQUE ID] Item 1: Sandwich - uniqueId: item-010-1760765127348-het5rfuek (preserved from overlay)
+ 📋 [CART ITEM 1] isModifierUpgrade: false
+ 🔑 [UNIQUE ID] Item 2: Latte - uniqueId: item-003-1760765136973-fdruu36n5 (preserved from overlay)
+ 📋 [CART ITEM 2] isModifierUpgrade: false
+ 🔑 [UNIQUE ID] Item 3: Latte (modifier upgrade) - uniqueId: item-003-1760765869205-f5t022nts (preserved from overlay)
+ 🔍 [LOAD DEBUG 3] Upgrade item FROM OVERLAY:
+   name: Latte (modifier upgrade)
+   isModifierUpgrade: undefined
+   typeof isModifierUpgrade: undefined
+   item.isModifierUpgrade === true: false
+ 🔒 [MODIFIER UPGRADE ITEM 3] Latte (modifier upgrade) - LOCKED FROM EDITING
+ 📋 [CART ITEM 3] isModifierUpgrade: true
+ 💰 [CART TOTALS] Object
+ 🎯 [ORDER ID SYNC] Setting cart order ID from existing order: 0573
+ 🎯 [CART] Set order ID for slot D5 : 0573
+ ✅ [CART] Successfully loaded existing order into cart
+ 🔥 [MENU PAGE] MenuPageContent component rendering...
+ 🔥 [MENU PAGE] MenuPageContent component rendering...
+ 🎨 Slot display - currentSlotInfo: Object slotId: D5 displayValue: D5
+ 🎯 Badge render check: Object
+ 🎨 Slot display - currentSlotInfo: Object slotId: D5 displayValue: D5
+ 🎯 Badge render check: Object
+ 🛒 CartOverlay rendered: Object
+ 🛒 CartOverlay - Professional cart state: Object
+ 🛒 CartOverlay - items: Array(3)
+ 🛒 CartOverlay - items.length: 3
+ 🛒 CartOverlay - subtotal: 520
+ 🛒 CartOverlay rendered: Object
+ 🛒 CartOverlay - Professional cart state: Object
+ 🛒 CartOverlay - items: Array(3)
+ 🛒 CartOverlay - items.length: 3
+ 🛒 CartOverlay - subtotal: 520
+ 💰 [PAYMENT LOGIC] Object
+ 💰 [PAYMENT LOGIC] Object
+ 🔥 [MENU PAGE] MenuPageContent component rendering...
+ 🔥 [MENU PAGE] MenuPageContent component rendering...
+ 🎨 Slot display - currentSlotInfo: Object slotId: D5 displayValue: D5
+ 🎯 Badge render check: Object
+ 🎨 Slot display - currentSlotInfo: Object slotId: D5 displayValue: D5
+ 🎯 Badge render check: Object
+ 🛒 CartOverlay rendered: Object
+ 🛒 CartOverlay - Professional cart state: Object
+ 🛒 CartOverlay - items: Array(3)
+ 🛒 CartOverlay - items.length: 3
+ 🛒 CartOverlay - subtotal: 520
+ 🛒 CartOverlay rendered: Object
+ 🛒 CartOverlay - Professional cart state: Object
+ 🛒 CartOverlay - items: Array(3)
+ 🛒 CartOverlay - items.length: 3
+ 🛒 CartOverlay - subtotal: 520
+ 🚀 [NAV INIT] Effect triggered - Navigation state initialized
+ 🧭 [NAVIGATION PARAMS] slot: D5 type: dine-in mode: edit
+ 🎯 [SLOT INIT] Setting slot ID to: D5
+ 🎯 [SLOT INIT] Calling setCurrentSlot with: D5
+ 🎯 [CART STORE] setCurrentSlot called with: D5
+ ✅ [CART STORE] Slot D5 set successfully
+ 🏷️ [ORDER TYPE] Set to: dine-in
+ ✏️ [EDIT MODE] Loading order for editing: D5
+ ✏️ [OVERLAY STORE] Loading ACTIVE draft order for editing, slot: D5
+ ✅ [OVERLAY STORE] Found active draft order in memory: 0573
+ 🔥 [MENU PAGE] MenuPageContent component rendering...
+ 🔥 [MENU PAGE] MenuPageContent component rendering...
+ 🎨 Slot display - currentSlotInfo: Object slotId: D5 displayValue: D5
+ 🎯 Badge render check: Object
+ 🎨 Slot display - currentSlotInfo: Object slotId: D5 displayValue: D5
+ 🎯 Badge render check: Object
+ 🛒 CartOverlay rendered: Object
+ 🛒 CartOverlay - Professional cart state: Object
+ 🛒 CartOverlay - items: Array(3)
+ 🛒 CartOverlay - items.length: 3
+ 🛒 CartOverlay - subtotal: 520
+ 🛒 CartOverlay rendered: Object
+ 🛒 CartOverlay - Professional cart state: Object
+ 🛒 CartOverlay - items: Array(3)
+ 🛒 CartOverlay - items.length: 3
+ 🛒 CartOverlay - subtotal: 520
+ 🔄 [CART] Loading existing order into slot: D5
+ 📦 [CART] Order items: 3 items
+ 💳 [CART] Payment status for loading: mixed
+ 🔑 [UNIQUE ID] Item 1: Sandwich - uniqueId: item-010-1760765127348-het5rfuek (preserved from overlay)
+ 📋 [CART ITEM 1] isModifierUpgrade: false
+ 🔑 [UNIQUE ID] Item 2: Latte - uniqueId: item-003-1760765136973-fdruu36n5 (preserved from overlay)
+ 📋 [CART ITEM 2] isModifierUpgrade: false
+ 🔑 [UNIQUE ID] Item 3: Latte (modifier upgrade) - uniqueId: item-003-1760765869205-f5t022nts (preserved from overlay)
+ 🔍 [LOAD DEBUG 3] Upgrade item FROM OVERLAY:
+   name: Latte (modifier upgrade)
+   isModifierUpgrade: undefined
+   typeof isModifierUpgrade: undefined
+   item.isModifierUpgrade === true: false
+ 🔒 [MODIFIER UPGRADE ITEM 3] Latte (modifier upgrade) - LOCKED FROM EDITING
+ 📋 [CART ITEM 3] isModifierUpgrade: true
+ 💰 [CART TOTALS] Object
+ 🎯 [ORDER ID SYNC] Setting cart order ID from existing order: 0573
+ 🎯 [CART] Set order ID for slot D5 : 0573
+ ✅ [CART] Successfully loaded existing order into cart
+ 🔥 [MENU PAGE] MenuPageContent component rendering...
+ 🔥 [MENU PAGE] MenuPageContent component rendering...
+ 🎨 Slot display - currentSlotInfo: Object slotId: D5 displayValue: D5
+ 🎯 Badge render check: Object
+ 🎨 Slot display - currentSlotInfo: Object slotId: D5 displayValue: D5
+ 🎯 Badge render check: Object
+ 🛒 CartOverlay rendered: Object
+ 🛒 CartOverlay - Professional cart state: Object
+ 🛒 CartOverlay - items: Array(3)
+ 🛒 CartOverlay - items.length: 3
+ 🛒 CartOverlay - subtotal: 520
+ 🛒 CartOverlay rendered: Object
+ 🛒 CartOverlay - Professional cart state: Object
+ 🛒 CartOverlay - items: Array(3)
+ 🛒 CartOverlay - items.length: 3
+ 🛒 CartOverlay - subtotal: 520
+ 💰 [PAYMENT LOGIC] Object
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\app\(routes)\menu\_components\cart-overlay\CartTotals.tsx:74 💰 [PAYMENT LOGIC] Object
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\app\(routes)\menu\_components\menu-page-content.tsx:35 🔥 [MENU PAGE] MenuPageContent component rendering...
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\app\(routes)\menu\_components\menu-page-content.tsx:35 🔥 [MENU PAGE] MenuPageContent component rendering...
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\app\(routes)\menu\_components\menu-header.tsx:104 🎨 Slot display - currentSlotInfo: Object slotId: D5 displayValue: D5
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\app\(routes)\menu\_components\menu-header.tsx:119 🎯 Badge render check: Object
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\app\(routes)\menu\_components\menu-header.tsx:104 🎨 Slot display - currentSlotInfo: Object slotId: D5 displayValue: D5
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\app\(routes)\menu\_components\menu-header.tsx:119 🎯 Badge render check: Object
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\app\(routes)\menu\_components\cart-overlay.tsx:74 🛒 CartOverlay rendered: Object
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\app\(routes)\menu\_components\cart-overlay.tsx:118 🛒 CartOverlay - Professional cart state: Object
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\app\(routes)\menu\_components\cart-overlay.tsx:130 🛒 CartOverlay - items: Array(3)
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\app\(routes)\menu\_components\cart-overlay.tsx:131 🛒 CartOverlay - items.length: 3
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\app\(routes)\menu\_components\cart-overlay.tsx:132 🛒 CartOverlay - subtotal: 520
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\app\(routes)\menu\_components\cart-overlay.tsx:74 🛒 CartOverlay rendered: Object
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\app\(routes)\menu\_components\cart-overlay.tsx:118 🛒 CartOverlay - Professional cart state: Object
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\app\(routes)\menu\_components\cart-overlay.tsx:130 🛒 CartOverlay - items: Array(3)
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\app\(routes)\menu\_components\cart-overlay.tsx:131 🛒 CartOverlay - items.length: 3
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\app\(routes)\menu\_components\cart-overlay.tsx:132 🛒 CartOverlay - subtotal: 520
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\lib\hooks\useMenuManagement.ts:249 🚀 [NAV INIT] Effect triggered - Navigation state initialized
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\lib\hooks\useMenuManagement.ts:254 🧭 [NAVIGATION PARAMS] slot: D5 type: dine-in mode: edit
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\lib\hooks\useMenuManagement.ts:258 🎯 [SLOT INIT] Setting slot ID to: D5
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\lib\hooks\useMenuManagement.ts:260 🎯 [SLOT INIT] Calling setCurrentSlot with: D5
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\lib\store\cart-new.ts:103 🎯 [CART STORE] setCurrentSlot called with: D5
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\lib\store\cart-new.ts:127 ✅ [CART STORE] Slot D5 set successfully
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\lib\hooks\useMenuManagement.ts:266 🏷️ [ORDER TYPE] Set to: dine-in
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\lib\hooks\useMenuManagement.ts:350 ✏️ [EDIT MODE] Loading order for editing: D5
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\lib\store\order-overlay.ts:258 ✏️ [OVERLAY STORE] Loading ACTIVE draft order for editing, slot: D5
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\lib\store\order-overlay.ts:273 ✅ [OVERLAY STORE] Found active draft order in memory: 0573
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\app\(routes)\menu\_components\menu-page-content.tsx:35 🔥 [MENU PAGE] MenuPageContent component rendering...
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\app\(routes)\menu\_components\menu-page-content.tsx:35 🔥 [MENU PAGE] MenuPageContent component rendering...
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\app\(routes)\menu\_components\menu-header.tsx:104 🎨 Slot display - currentSlotInfo: Object slotId: D5 displayValue: D5
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\app\(routes)\menu\_components\menu-header.tsx:119 🎯 Badge render check: Object
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\app\(routes)\menu\_components\menu-header.tsx:104 🎨 Slot display - currentSlotInfo: Object slotId: D5 displayValue: D5
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\app\(routes)\menu\_components\menu-header.tsx:119 🎯 Badge render check: Object
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\app\(routes)\menu\_components\cart-overlay.tsx:74 🛒 CartOverlay rendered: Object
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\app\(routes)\menu\_components\cart-overlay.tsx:118 🛒 CartOverlay - Professional cart state: Object
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\app\(routes)\menu\_components\cart-overlay.tsx:130 🛒 CartOverlay - items: Array(3)
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\app\(routes)\menu\_components\cart-overlay.tsx:131 🛒 CartOverlay - items.length: 3
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\app\(routes)\menu\_components\cart-overlay.tsx:132 🛒 CartOverlay - subtotal: 520
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\app\(routes)\menu\_components\cart-overlay.tsx:74 🛒 CartOverlay rendered: Object
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\app\(routes)\menu\_components\cart-overlay.tsx:118 🛒 CartOverlay - Professional cart state: Object
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\app\(routes)\menu\_components\cart-overlay.tsx:130 🛒 CartOverlay - items: Array(3)
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\app\(routes)\menu\_components\cart-overlay.tsx:131 🛒 CartOverlay - items.length: 3
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\app\(routes)\menu\_components\cart-overlay.tsx:132 🛒 CartOverlay - subtotal: 520
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\lib\store\cart-new.ts:798 🔄 [CART] Loading existing order into slot: D5
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\lib\store\cart-new.ts:799 📦 [CART] Order items: 3 items
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\lib\store\cart-new.ts:800 💳 [CART] Payment status for loading: mixed
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\lib\store\cart-new.ts:811 🔑 [UNIQUE ID] Item 1: Sandwich - uniqueId: item-010-1760765127348-het5rfuek (preserved from overlay)
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\lib\store\cart-new.ts:872 📋 [CART ITEM 1] isModifierUpgrade: false
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\lib\store\cart-new.ts:811 🔑 [UNIQUE ID] Item 2: Latte - uniqueId: item-003-1760765136973-fdruu36n5 (preserved from overlay)
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\lib\store\cart-new.ts:872 📋 [CART ITEM 2] isModifierUpgrade: false
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\lib\store\cart-new.ts:811 🔑 [UNIQUE ID] Item 3: Latte (modifier upgrade) - uniqueId: item-003-1760765869205-f5t022nts (preserved from overlay)
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\lib\store\cart-new.ts:863 🔍 [LOAD DEBUG 3] Upgrade item FROM OVERLAY:
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\lib\store\cart-new.ts:864   name: Latte (modifier upgrade)
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\lib\store\cart-new.ts:865   isModifierUpgrade: undefined
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\lib\store\cart-new.ts:866   typeof isModifierUpgrade: undefined
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\lib\store\cart-new.ts:867   item.isModifierUpgrade === true: false
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\lib\store\cart-new.ts:870 🔒 [MODIFIER UPGRADE ITEM 3] Latte (modifier upgrade) - LOCKED FROM EDITING
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\lib\store\cart-new.ts:872 📋 [CART ITEM 3] isModifierUpgrade: true
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\lib\store\cart-new.ts:882 💰 [CART TOTALS] Object
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\lib\store\cart-new.ts:915 🎯 [ORDER ID SYNC] Setting cart order ID from existing order: 0573
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\lib\store\cart-new.ts:767 🎯 [CART] Set order ID for slot D5 : 0573
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\lib\store\cart-new.ts:919 ✅ [CART] Successfully loaded existing order into cart
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\app\(routes)\menu\_components\menu-page-content.tsx:35 🔥 [MENU PAGE] MenuPageContent component rendering...
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\app\(routes)\menu\_components\menu-page-content.tsx:35 🔥 [MENU PAGE] MenuPageContent component rendering...
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\app\(routes)\menu\_components\menu-header.tsx:104 🎨 Slot display - currentSlotInfo: Object slotId: D5 displayValue: D5
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\app\(routes)\menu\_components\menu-header.tsx:119 🎯 Badge render check: Object
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\app\(routes)\menu\_components\menu-header.tsx:104 🎨 Slot display - currentSlotInfo: Object slotId: D5 displayValue: D5
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\app\(routes)\menu\_components\menu-header.tsx:119 🎯 Badge render check: Object
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\app\(routes)\menu\_components\cart-overlay.tsx:74 🛒 CartOverlay rendered: Object
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\app\(routes)\menu\_components\cart-overlay.tsx:118 🛒 CartOverlay - Professional cart state: Object
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\app\(routes)\menu\_components\cart-overlay.tsx:130 🛒 CartOverlay - items: Array(3)
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\app\(routes)\menu\_components\cart-overlay.tsx:131 🛒 CartOverlay - items.length: 3
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\app\(routes)\menu\_components\cart-overlay.tsx:132 🛒 CartOverlay - subtotal: 520
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\app\(routes)\menu\_components\cart-overlay.tsx:74 🛒 CartOverlay rendered: Object
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\app\(routes)\menu\_components\cart-overlay.tsx:118 🛒 CartOverlay - Professional cart state: Object
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\app\(routes)\menu\_components\cart-overlay.tsx:130 🛒 CartOverlay - items: Array(3)
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\app\(routes)\menu\_components\cart-overlay.tsx:131 🛒 CartOverlay - items.length: 3
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\app\(routes)\menu\_components\cart-overlay.tsx:132 🛒 CartOverlay - subtotal: 520
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\app\(routes)\menu\_components\cart-overlay\CartTotals.tsx:74 💰 [PAYMENT LOGIC] Object
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\app\(routes)\menu\_components\cart-overlay\CartTotals.tsx:74 💰 [PAYMENT LOGIC] Object
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\app\(routes)\menu\_components\menu-page-content.tsx:35 🔥 [MENU PAGE] MenuPageContent component rendering...
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\app\(routes)\menu\_components\menu-page-content.tsx:35 🔥 [MENU PAGE] MenuPageContent component rendering...
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\app\(routes)\menu\_components\menu-header.tsx:104 🎨 Slot display - currentSlotInfo: {id: 'D5', number: '1', orderType: 'dine-in', status: 'processing', isActive: true, …} slotId: D5 displayValue: D5
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\app\(routes)\menu\_components\menu-header.tsx:119 🎯 Badge render check: {cartItemsLength: 3, isCartOpen: true, shouldShow: false}
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\app\(routes)\menu\_components\menu-header.tsx:104 🎨 Slot display - currentSlotInfo: {id: 'D5', number: '1', orderType: 'dine-in', status: 'processing', isActive: true, …} slotId: D5 displayValue: D5
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\app\(routes)\menu\_components\menu-header.tsx:119 🎯 Badge render check: {cartItemsLength: 3, isCartOpen: true, shouldShow: false}
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\app\(routes)\menu\_components\cart-overlay.tsx:74 🛒 CartOverlay rendered: {isOpen: true, slotId: 'D5', orderType: 'dine-in', mode: 'cart'}
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\app\(routes)\menu\_components\cart-overlay.tsx:118 🛒 CartOverlay - Professional cart state: {currentSlotId: 'D5', itemsCount: 3, subtotal: 520, total: 598, auditTrail: 2}
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\app\(routes)\menu\_components\cart-overlay.tsx:130 🛒 CartOverlay - items: (3) [{…}, {…}, {…}]
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\app\(routes)\menu\_components\cart-overlay.tsx:131 🛒 CartOverlay - items.length: 3
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\app\(routes)\menu\_components\cart-overlay.tsx:132 🛒 CartOverlay - subtotal: 520
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\app\(routes)\menu\_components\cart-overlay.tsx:74 🛒 CartOverlay rendered: {isOpen: true, slotId: 'D5', orderType: 'dine-in', mode: 'cart'}
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\app\(routes)\menu\_components\cart-overlay.tsx:118 🛒 CartOverlay - Professional cart state: {currentSlotId: 'D5', itemsCount: 3, subtotal: 520, total: 598, auditTrail: 2}
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\app\(routes)\menu\_components\cart-overlay.tsx:130 🛒 CartOverlay - items: (3) [{…}, {…}, {…}]
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\app\(routes)\menu\_components\cart-overlay.tsx:131 🛒 CartOverlay - items.length: 3
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\app\(routes)\menu\_components\cart-overlay.tsx:132 🛒 CartOverlay - subtotal: 520
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\lib\hooks\useMenuManagement.ts:249 🚀 [NAV INIT] Effect triggered - Navigation state initialized
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\lib\hooks\useMenuManagement.ts:254 🧭 [NAVIGATION PARAMS] slot: D5 type: dine-in mode: edit
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\lib\hooks\useMenuManagement.ts:258 🎯 [SLOT INIT] Setting slot ID to: D5
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\lib\hooks\useMenuManagement.ts:260 🎯 [SLOT INIT] Calling setCurrentSlot with: D5
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\lib\store\cart-new.ts:103 🎯 [CART STORE] setCurrentSlot called with: D5
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\lib\store\cart-new.ts:127 ✅ [CART STORE] Slot D5 set successfully
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\lib\hooks\useMenuManagement.ts:266 🏷️ [ORDER TYPE] Set to: dine-in
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\lib\hooks\useMenuManagement.ts:350 ✏️ [EDIT MODE] Loading order for editing: D5
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\lib\store\order-overlay.ts:258 ✏️ [OVERLAY STORE] Loading ACTIVE draft order for editing, slot: D5
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\lib\store\order-overlay.ts:273 ✅ [OVERLAY STORE] Found active draft order in memory: 0573
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\app\(routes)\menu\_components\menu-page-content.tsx:35 🔥 [MENU PAGE] MenuPageContent component rendering...
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\app\(routes)\menu\_components\menu-page-content.tsx:35 🔥 [MENU PAGE] MenuPageContent component rendering...
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\app\(routes)\menu\_components\menu-header.tsx:104 🎨 Slot display - currentSlotInfo: {id: 'D5', number: '1', orderType: 'dine-in', status: 'processing', isActive: true, …} slotId: D5 displayValue: D5
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\app\(routes)\menu\_components\menu-header.tsx:119 🎯 Badge render check: {cartItemsLength: 3, isCartOpen: true, shouldShow: false}
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\app\(routes)\menu\_components\menu-header.tsx:104 🎨 Slot display - currentSlotInfo: {id: 'D5', number: '1', orderType: 'dine-in', status: 'processing', isActive: true, …} slotId: D5 displayValue: D5
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\app\(routes)\menu\_components\menu-header.tsx:119 🎯 Badge render check: {cartItemsLength: 3, isCartOpen: true, shouldShow: false}
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\app\(routes)\menu\_components\cart-overlay.tsx:74 🛒 CartOverlay rendered: {isOpen: true, slotId: 'D5', orderType: 'dine-in', mode: 'cart'}
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\app\(routes)\menu\_components\cart-overlay.tsx:118 🛒 CartOverlay - Professional cart state: {currentSlotId: 'D5', itemsCount: 3, subtotal: 520, total: 598, auditTrail: 2}
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\app\(routes)\menu\_components\cart-overlay.tsx:130 🛒 CartOverlay - items: (3) [{…}, {…}, {…}]
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\app\(routes)\menu\_components\cart-overlay.tsx:131 🛒 CartOverlay - items.length: 3
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\app\(routes)\menu\_components\cart-overlay.tsx:132 🛒 CartOverlay - subtotal: 520
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\app\(routes)\menu\_components\cart-overlay.tsx:74 🛒 CartOverlay rendered: {isOpen: true, slotId: 'D5', orderType: 'dine-in', mode: 'cart'}
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\app\(routes)\menu\_components\cart-overlay.tsx:118 🛒 CartOverlay - Professional cart state: {currentSlotId: 'D5', itemsCount: 3, subtotal: 520, total: 598, auditTrail: 2}
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\app\(routes)\menu\_components\cart-overlay.tsx:130 🛒 CartOverlay - items: (3) [{…}, {…}, {…}]
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\app\(routes)\menu\_components\cart-overlay.tsx:131 🛒 CartOverlay - items.length: 3
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\app\(routes)\menu\_components\cart-overlay.tsx:132 🛒 CartOverlay - subtotal: 520
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\lib\store\cart-new.ts:798 🔄 [CART] Loading existing order into slot: D5
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\lib\store\cart-new.ts:799 📦 [CART] Order items: 3 items
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\lib\store\cart-new.ts:800 💳 [CART] Payment status for loading: mixed
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\lib\store\cart-new.ts:811 🔑 [UNIQUE ID] Item 1: Sandwich - uniqueId: item-010-1760765127348-het5rfuek (preserved from overlay)
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\lib\store\cart-new.ts:872 📋 [CART ITEM 1] isModifierUpgrade: false
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\lib\store\cart-new.ts:811 🔑 [UNIQUE ID] Item 2: Latte - uniqueId: item-003-1760765136973-fdruu36n5 (preserved from overlay)
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\lib\store\cart-new.ts:872 📋 [CART ITEM 2] isModifierUpgrade: false
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\lib\store\cart-new.ts:811 🔑 [UNIQUE ID] Item 3: Latte (modifier upgrade) - uniqueId: item-003-1760765869205-f5t022nts (preserved from overlay)
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\lib\store\cart-new.ts:863 🔍 [LOAD DEBUG 3] Upgrade item FROM OVERLAY:
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\lib\store\cart-new.ts:864   name: Latte (modifier upgrade)
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\lib\store\cart-new.ts:865   isModifierUpgrade: undefined
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\lib\store\cart-new.ts:866   typeof isModifierUpgrade: undefined
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\lib\store\cart-new.ts:867   item.isModifierUpgrade === true: false
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\lib\store\cart-new.ts:870 🔒 [MODIFIER UPGRADE ITEM 3] Latte (modifier upgrade) - LOCKED FROM EDITING
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\lib\store\cart-new.ts:872 📋 [CART ITEM 3] isModifierUpgrade: true
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\lib\store\cart-new.ts:882 💰 [CART TOTALS] {subtotal: '520.00', tax: '78.00', total: '598.00', itemCount: 3}
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\lib\store\cart-new.ts:915 🎯 [ORDER ID SYNC] Setting cart order ID from existing order: 0573
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\lib\store\cart-new.ts:767 🎯 [CART] Set order ID for slot D5 : 0573
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\lib\store\cart-new.ts:919 ✅ [CART] Successfully loaded existing order into cart
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\app\(routes)\menu\_components\menu-page-content.tsx:35 🔥 [MENU PAGE] MenuPageContent component rendering...
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\app\(routes)\menu\_components\menu-page-content.tsx:35 🔥 [MENU PAGE] MenuPageContent component rendering...
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\app\(routes)\menu\_components\menu-header.tsx:104 🎨 Slot display - currentSlotInfo: {id: 'D5', number: '1', orderType: 'dine-in', status: 'processing', isActive: true, …} slotId: D5 displayValue: D5
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\app\(routes)\menu\_components\menu-header.tsx:119 🎯 Badge render check: {cartItemsLength: 3, isCartOpen: true, shouldShow: false}
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\app\(routes)\menu\_components\menu-header.tsx:104 🎨 Slot display - currentSlotInfo: {id: 'D5', number: '1', orderType: 'dine-in', status: 'processing', isActive: true, …} slotId: D5 displayValue: D5
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\app\(routes)\menu\_components\menu-header.tsx:119 🎯 Badge render check: {cartItemsLength: 3, isCartOpen: true, shouldShow: false}
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\app\(routes)\menu\_components\cart-overlay.tsx:74 🛒 CartOverlay rendered: {isOpen: true, slotId: 'D5', orderType: 'dine-in', mode: 'cart'}
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\app\(routes)\menu\_components\cart-overlay.tsx:118 🛒 CartOverlay - Professional cart state: {currentSlotId: 'D5', itemsCount: 3, subtotal: 520, total: 598, auditTrail: 2}
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\app\(routes)\menu\_components\cart-overlay.tsx:130 🛒 CartOverlay - items: (3) [{…}, {…}, {…}]
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\app\(routes)\menu\_components\cart-overlay.tsx:131 🛒 CartOverlay - items.length: 3
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\app\(routes)\menu\_components\cart-overlay.tsx:132 🛒 CartOverlay - subtotal: 520
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\app\(routes)\menu\_components\cart-overlay.tsx:74 🛒 CartOverlay rendered: {isOpen: true, slotId: 'D5', orderType: 'dine-in', mode: 'cart'}
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\app\(routes)\menu\_components\cart-overlay.tsx:118 🛒 CartOverlay - Professional cart state: {currentSlotId: 'D5', itemsCount: 3, subtotal: 520, total: 598, auditTrail: 2}
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\app\(routes)\menu\_components\cart-overlay.tsx:130 🛒 CartOverlay - items: (3) [{…}, {…}, {…}]
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\app\(routes)\menu\_components\cart-overlay.tsx:131 🛒 CartOverlay - items.length: 3
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\app\(routes)\menu\_components\cart-overlay.tsx:132 🛒 CartOverlay - subtotal: 520
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\app\(routes)\menu\_components\cart-overlay\CartTotals.tsx:74 💰 [PAYMENT LOGIC] {totalItems: 3, paidItems: 2, unpaidItems: 1, paidAmount: '500.00', unpaidAmount: '20.00', …}
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\app\(routes)\menu\_components\cart-overlay\CartTotals.tsx:74 💰 [PAYMENT LOGIC] {totalItems: 3, paidItems: 2, unpaidItems: 1, paidAmount: '500.00', unpaidAmount: '20.00', …}
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\app\(routes)\menu\_components\menu-page-content.tsx:35 🔥 [MENU PAGE] MenuPageContent component rendering...
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\app\(routes)\menu\_components\menu-page-content.tsx:35 🔥 [MENU PAGE] MenuPageContent component rendering...
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\app\(routes)\menu\_components\menu-header.tsx:104 🎨 Slot display - currentSlotInfo: {id: 'D5', number: '1', orderType: 'dine-in', status: 'processing', isActive: true, …} slotId: D5 displayValue: D5
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\app\(routes)\menu\_components\menu-header.tsx:119 🎯 Badge render check: {cartItemsLength: 3, isCartOpen: true, shouldShow: false}
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\app\(routes)\menu\_components\menu-header.tsx:104 🎨 Slot display - currentSlotInfo: {id: 'D5', number: '1', orderType: 'dine-in', status: 'processing', isActive: true, …} slotId: D5 displayValue: D5
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\app\(routes)\menu\_components\menu-header.tsx:119 🎯 Badge render check: {cartItemsLength: 3, isCartOpen: true, shouldShow: false}
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\app\(routes)\menu\_components\cart-overlay.tsx:74 🛒 CartOverlay rendered: {isOpen: true, slotId: 'D5', orderType: 'dine-in', mode: 'cart'}
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\app\(routes)\menu\_components\cart-overlay.tsx:118 🛒 CartOverlay - Professional cart state: {currentSlotId: 'D5', itemsCount: 3, subtotal: 520, total: 598, auditTrail: 2}
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\app\(routes)\menu\_components\cart-overlay.tsx:130 🛒 CartOverlay - items: (3) [{…}, {…}, {…}]
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\app\(routes)\menu\_components\cart-overlay.tsx:131 🛒 CartOverlay - items.length: 3
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\app\(routes)\menu\_components\cart-overlay.tsx:132 🛒 CartOverlay - subtotal: 520
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\app\(routes)\menu\_components\cart-overlay.tsx:74 🛒 CartOverlay rendered: {isOpen: true, slotId: 'D5', orderType: 'dine-in', mode: 'cart'}
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\app\(routes)\menu\_components\cart-overlay.tsx:118 🛒 CartOverlay - Professional cart state: {currentSlotId: 'D5', itemsCount: 3, subtotal: 520, total: 598, auditTrail: 2}
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\app\(routes)\menu\_components\cart-overlay.tsx:130 🛒 CartOverlay - items: (3) [{…}, {…}, {…}]
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\app\(routes)\menu\_components\cart-overlay.tsx:131 🛒 CartOverlay - items.length: 3
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\app\(routes)\menu\_components\cart-overlay.tsx:132 🛒 CartOverlay - subtotal: 520
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\lib\hooks\useMenuManagement.ts:249 🚀 [NAV INIT] Effect triggered - Navigation state initialized
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\lib\hooks\useMenuManagement.ts:254 🧭 [NAVIGATION PARAMS] slot: D5 type: dine-in mode: edit
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\lib\hooks\useMenuManagement.ts:258 🎯 [SLOT INIT] Setting slot ID to: D5
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\lib\hooks\useMenuManagement.ts:260 🎯 [SLOT INIT] Calling setCurrentSlot with: D5
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\lib\store\cart-new.ts:103 🎯 [CART STORE] setCurrentSlot called with: D5
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\lib\store\cart-new.ts:127 ✅ [CART STORE] Slot D5 set successfully
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\lib\hooks\useMenuManagement.ts:266 🏷️ [ORDER TYPE] Set to: dine-in
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\lib\hooks\useMenuManagement.ts:350 ✏️ [EDIT MODE] Loading order for editing: D5
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\lib\store\order-overlay.ts:258 ✏️ [OVERLAY STORE] Loading ACTIVE draft order for editing, slot: D5
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\lib\store\order-overlay.ts:273 ✅ [OVERLAY STORE] Found active draft order in memory: 0573
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\app\(routes)\menu\_components\menu-page-content.tsx:35 🔥 [MENU PAGE] MenuPageContent component rendering...
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\app\(routes)\menu\_components\menu-page-content.tsx:35 🔥 [MENU PAGE] MenuPageContent component rendering...
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\app\(routes)\menu\_components\menu-header.tsx:104 🎨 Slot display - currentSlotInfo: {id: 'D5', number: '1', orderType: 'dine-in', status: 'processing', isActive: true, …} slotId: D5 displayValue: D5
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\app\(routes)\menu\_components\menu-header.tsx:119 🎯 Badge render check: {cartItemsLength: 3, isCartOpen: true, shouldShow: false}
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\app\(routes)\menu\_components\menu-header.tsx:104 🎨 Slot display - currentSlotInfo: {id: 'D5', number: '1', orderType: 'dine-in', status: 'processing', isActive: true, …} slotId: D5 displayValue: D5
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\app\(routes)\menu\_components\menu-header.tsx:119 🎯 Badge render check: {cartItemsLength: 3, isCartOpen: true, shouldShow: false}
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\app\(routes)\menu\_components\cart-overlay.tsx:74 🛒 CartOverlay rendered: {isOpen: true, slotId: 'D5', orderType: 'dine-in', mode: 'cart'}
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\app\(routes)\menu\_components\cart-overlay.tsx:118 🛒 CartOverlay - Professional cart state: {currentSlotId: 'D5', itemsCount: 3, subtotal: 520, total: 598, auditTrail: 2}
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\app\(routes)\menu\_components\cart-overlay.tsx:130 🛒 CartOverlay - items: (3) [{…}, {…}, {…}]
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\app\(routes)\menu\_components\cart-overlay.tsx:131 🛒 CartOverlay - items.length: 3
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\app\(routes)\menu\_components\cart-overlay.tsx:132 🛒 CartOverlay - subtotal: 520
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\app\(routes)\menu\_components\cart-overlay.tsx:74 🛒 CartOverlay rendered: {isOpen: true, slotId: 'D5', orderType: 'dine-in', mode: 'cart'}
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\app\(routes)\menu\_components\cart-overlay.tsx:118 🛒 CartOverlay - Professional cart state: {currentSlotId: 'D5', itemsCount: 3, subtotal: 520, total: 598, auditTrail: 2}
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\app\(routes)\menu\_components\cart-overlay.tsx:130 🛒 CartOverlay - items: (3) [{…}, {…}, {…}]
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\app\(routes)\menu\_components\cart-overlay.tsx:131 🛒 CartOverlay - items.length: 3
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\app\(routes)\menu\_components\cart-overlay.tsx:132 🛒 CartOverlay - subtotal: 520
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\lib\store\cart-new.ts:798 🔄 [CART] Loading existing order into slot: D5
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\lib\store\cart-new.ts:799 📦 [CART] Order items: 3 items
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\lib\store\cart-new.ts:800 💳 [CART] Payment status for loading: mixed
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\lib\store\cart-new.ts:811 🔑 [UNIQUE ID] Item 1: Sandwich - uniqueId: item-010-1760765127348-het5rfuek (preserved from overlay)
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\lib\store\cart-new.ts:872 📋 [CART ITEM 1] isModifierUpgrade: false
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\lib\store\cart-new.ts:811 🔑 [UNIQUE ID] Item 2: Latte - uniqueId: item-003-1760765136973-fdruu36n5 (preserved from overlay)
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\lib\store\cart-new.ts:872 📋 [CART ITEM 2] isModifierUpgrade: false
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\lib\store\cart-new.ts:811 🔑 [UNIQUE ID] Item 3: Latte (modifier upgrade) - uniqueId: item-003-1760765869205-f5t022nts (preserved from overlay)
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\lib\store\cart-new.ts:863 🔍 [LOAD DEBUG 3] Upgrade item FROM OVERLAY:
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\lib\store\cart-new.ts:864   name: Latte (modifier upgrade)
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\lib\store\cart-new.ts:865   isModifierUpgrade: undefined
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\lib\store\cart-new.ts:866   typeof isModifierUpgrade: undefined
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\lib\store\cart-new.ts:867   item.isModifierUpgrade === true: false
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\lib\store\cart-new.ts:870 🔒 [MODIFIER UPGRADE ITEM 3] Latte (modifier upgrade) - LOCKED FROM EDITING
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\lib\store\cart-new.ts:872 📋 [CART ITEM 3] isModifierUpgrade: true
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\lib\store\cart-new.ts:882 💰 [CART TOTALS] {subtotal: '520.00', tax: '78.00', total: '598.00', itemCount: 3}
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\lib\store\cart-new.ts:915 🎯 [ORDER ID SYNC] Setting cart order ID from existing order: 0573
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\lib\store\cart-new.ts:767 🎯 [CART] Set order ID for slot D5 : 0573
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\lib\store\cart-new.ts:919 ✅ [CART] Successfully loaded existing order into cart
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\app\(routes)\menu\_components\menu-page-content.tsx:35 🔥 [MENU PAGE] MenuPageContent component rendering...
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\app\(routes)\menu\_components\menu-page-content.tsx:35 🔥 [MENU PAGE] MenuPageContent component rendering...
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\app\(routes)\menu\_components\menu-header.tsx:104 🎨 Slot display - currentSlotInfo: {id: 'D5', number: '1', orderType: 'dine-in', status: 'processing', isActive: true, …} slotId: D5 displayValue: D5
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\app\(routes)\menu\_components\menu-header.tsx:119 🎯 Badge render check: {cartItemsLength: 3, isCartOpen: true, shouldShow: false}
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\app\(routes)\menu\_components\menu-header.tsx:104 🎨 Slot display - currentSlotInfo: {id: 'D5', number: '1', orderType: 'dine-in', status: 'processing', isActive: true, …} slotId: D5 displayValue: D5
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\app\(routes)\menu\_components\menu-header.tsx:119 🎯 Badge render check: {cartItemsLength: 3, isCartOpen: true, shouldShow: false}
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\app\(routes)\menu\_components\cart-overlay.tsx:74 🛒 CartOverlay rendered: {isOpen: true, slotId: 'D5', orderType: 'dine-in', mode: 'cart'}
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\app\(routes)\menu\_components\cart-overlay.tsx:118 🛒 CartOverlay - Professional cart state: {currentSlotId: 'D5', itemsCount: 3, subtotal: 520, total: 598, auditTrail: 2}
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\app\(routes)\menu\_components\cart-overlay.tsx:130 🛒 CartOverlay - items: (3) [{…}, {…}, {…}]
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\app\(routes)\menu\_components\cart-overlay.tsx:131 🛒 CartOverlay - items.length: 3
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\app\(routes)\menu\_components\cart-overlay.tsx:132 🛒 CartOverlay - subtotal: 520
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\app\(routes)\menu\_components\cart-overlay.tsx:74 🛒 CartOverlay rendered: {isOpen: true, slotId: 'D5', orderType: 'dine-in', mode: 'cart'}
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\app\(routes)\menu\_components\cart-overlay.tsx:118 🛒 CartOverlay - Professional cart state: {currentSlotId: 'D5', itemsCount: 3, subtotal: 520, total: 598, auditTrail: 2}
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\app\(routes)\menu\_components\cart-overlay.tsx:130 🛒 CartOverlay - items: (3) [{…}, {…}, {…}]
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\app\(routes)\menu\_components\cart-overlay.tsx:131 🛒 CartOverlay - items.length: 3
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\app\(routes)\menu\_components\cart-overlay.tsx:132 🛒 CartOverlay - subtotal: 520
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\app\(routes)\menu\_components\cart-overlay\CartTotals.tsx:74 💰 [PAYMENT LOGIC] {totalItems: 3, paidItems: 2, unpaidItems: 1, paidAmount: '500.00', unpaidAmount: '20.00', …}
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\app\(routes)\menu\_components\cart-overlay\CartTotals.tsx:74 💰 [PAYMENT LOGIC] {totalItems: 3, paidItems: 2, unpaidItems: 1, paidAmount: '500.00', unpaidAmount: '20.00', …}
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\app\(routes)\menu\_components\menu-page-content.tsx:35 🔥 [MENU PAGE] MenuPageContent component rendering...
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\app\(routes)\menu\_components\menu-page-content.tsx:35 🔥 [MENU PAGE] MenuPageContent component rendering...
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\app\(routes)\menu\_components\menu-header.tsx:104 🎨 Slot display - currentSlotInfo: {id: 'D5', number: '1', orderType: 'dine-in', status: 'processing', isActive: true, …} slotId: D5 displayValue: D5
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\app\(routes)\menu\_components\menu-header.tsx:119 🎯 Badge render check: {cartItemsLength: 3, isCartOpen: true, shouldShow: false}
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\app\(routes)\menu\_components\menu-header.tsx:104 🎨 Slot display - currentSlotInfo: {id: 'D5', number: '1', orderType: 'dine-in', status: 'processing', isActive: true, …} slotId: D5 displayValue: D5
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\app\(routes)\menu\_components\menu-header.tsx:119 🎯 Badge render check: {cartItemsLength: 3, isCartOpen: true, shouldShow: false}
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\app\(routes)\menu\_components\cart-overlay.tsx:74 🛒 CartOverlay rendered: {isOpen: true, slotId: 'D5', orderType: 'dine-in', mode: 'cart'}
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\app\(routes)\menu\_components\cart-overlay.tsx:118 🛒 CartOverlay - Professional cart state: {currentSlotId: 'D5', itemsCount: 3, subtotal: 520, total: 598, auditTrail: 2}
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\app\(routes)\menu\_components\cart-overlay.tsx:130 🛒 CartOverlay - items: (3) [{…}, {…}, {…}]
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\app\(routes)\menu\_components\cart-overlay.tsx:131 🛒 CartOverlay - items.length: 3
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\app\(routes)\menu\_components\cart-overlay.tsx:132 🛒 CartOverlay - subtotal: 520
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\app\(routes)\menu\_components\cart-overlay.tsx:74 🛒 CartOverlay rendered: {isOpen: true, slotId: 'D5', orderType: 'dine-in', mode: 'cart'}
+C:\Users\faraz\Documents\GitHub\umt code\POS\pos-cashier\src\app\(routes)\menu\_components\cart-overlay.tsx:118 🛒 CartOverlay - Professional cart state: {currentSlotId: 'D5', itemsCount: 3, subtotal: 520, total: 598, auditTrail: 2}
+ 🛒 CartOverlay - items: (3) [{…}, {…}, {…}]
+ 🛒 CartOverlay - items.length: 3
+ 🛒 CartOverlay - subtotal: 520
+ 🚀 [NAV INIT] Effect triggered - Navigation state initialized
+ 🧭 [NAVIGATION PARAMS] slot: D5 type: dine-in mode: edit
+ 🎯 [SLOT INIT] Setting slot ID to: D5
+ 🎯 [SLOT INIT] Calling setCurrentSlot with: D5
+ 🎯 [CART STORE] setCurrentSlot called with: D5
+ ✅ [CART STORE] Slot D5 set successfully
+ 🏷️ [ORDER TYPE] Set to: dine-in
+ ✏️ [EDIT MODE] Loading order for editing: D5
+ ✏️ [OVERLAY STORE] Loading ACTIVE draft order for editing, slot: D5
+ ✅ [OVERLAY STORE] Found active draft order in memory: 0573
+ 🔥 [MENU PAGE] MenuPageContent component rendering...
+ 🔥 [MENU PAGE] MenuPageContent component rendering...
+ 🎨 Slot display - currentSlotInfo: {id: 'D5', number: '1', orderType: 'dine-in', status: 'processing', isActive: true, …} slotId: D5 displayValue: D5
+ 🎯 Badge render check: {cartItemsLength: 3, isCartOpen: true, shouldShow: false}
+ 🎨 Slot display - currentSlotInfo: {id: 'D5', number: '1', orderType: 'dine-in', status: 'processing', isActive: true, …} slotId: D5 displayValue: D5
+ 🎯 Badge render check: {cartItemsLength: 3, isCartOpen: true, shouldShow: false}
+ 🛒 CartOverlay rendered: {isOpen: true, slotId: 'D5', orderType: 'dine-in', mode: 'cart'}
+ 🛒 CartOverlay - Professional cart state: {currentSlotId: 'D5', itemsCount: 3, subtotal: 520, total: 598, auditTrail: 2}
+ 🛒 CartOverlay - items: (3) [{…}, {…}, {…}]
+ 🛒 CartOverlay - items.length: 3
+ 🛒 CartOverlay - subtotal: 520
+ 🛒 CartOverlay rendered: {isOpen: true, slotId: 'D5', orderType: 'dine-in', mode: 'cart'}
+ 🛒 CartOverlay - Professional cart state: {currentSlotId: 'D5', itemsCount: 3, subtotal: 520, total: 598, auditTrail: 2}
+ 🛒 CartOverlay - items: (3) [{…}, {…}, {…}]
+ 🛒 CartOverlay - items.length: 3
+ 🛒 CartOverlay - subtotal: 520
+ 🔄 [CART] Loading existing order into slot: D5
+ 📦 [CART] Order items: 3 items
+ 💳 [CART] Payment status for loading: mixed
+ 🔑 [UNIQUE ID] Item 1: Sandwich - uniqueId: item-010-1760765127348-het5rfuek (preserved from overlay)
+ 📋 [CART ITEM 1] isModifierUpgrade: false
+ 🔑 [UNIQUE ID] Item 2: Latte - uniqueId: item-003-1760765136973-fdruu36n5 (preserved from overlay)
+ 📋 [CART ITEM 2] isModifierUpgrade: false
+ 🔑 [UNIQUE ID] Item 3: Latte (modifier upgrade) - uniqueId: item-003-1760765869205-f5t022nts (preserved from overlay)
+ 🔍 [LOAD DEBUG 3] Upgrade item FROM OVERLAY:
+   name: Latte (modifier upgrade)
+   isModifierUpgrade: undefined
+   typeof isModifierUpgrade: undefined
+   item.isModifierUpgrade === true: false
+ 🔒 [MODIFIER UPGRADE ITEM 3] Latte (modifier upgrade) - LOCKED FROM EDITING
+ 📋 [CART ITEM 3] isModifierUpgrade: true
+ 💰 [CART TOTALS] {subtotal: '520.00', tax: '78.00', total: '598.00', itemCount: 3}
+ 🎯 [ORDER ID SYNC] Setting cart order ID from existing order: 0573
+ 🎯 [CART] Set order ID for slot D5 : 0573
+ ✅ [CART] Successfully loaded existing order into cart
+ 🔥 [MENU PAGE] MenuPageContent component rendering...
+ 🔥 [MENU PAGE] MenuPageContent component rendering...
+ 🎨 Slot display - currentSlotInfo: {id: 'D5', number: '1', orderType: 'dine-in', status: 'processing', isActive: true, …} slotId: D5 displayValue: D5
+ 🎯 Badge render check: {cartItemsLength: 3, isCartOpen: true, shouldShow: false}
+ 🎨 Slot display - currentSlotInfo: {id: 'D5', number: '1', orderType: 'dine-in', status: 'processing', isActive: true, …} slotId: D5 displayValue: D5
+ 🎯 Badge render check: {cartItemsLength: 3, isCartOpen: true, shouldShow: false}
+ 🛒 CartOverlay rendered: {isOpen: true, slotId: 'D5', orderType: 'dine-in', mode: 'cart'}
+ 🛒 CartOverlay - Professional cart state: {currentSlotId: 'D5', itemsCount: 3, subtotal: 520, total: 598, auditTrail: 2}
+ 🛒 CartOverlay - items: (3) [{…}, {…}, {…}]
+ 🛒 CartOverlay - items.length: 3
+ 🛒 CartOverlay - subtotal: 520
+ 🛒 CartOverlay rendered: {isOpen: true, slotId: 'D5', orderType: 'dine-in', mode: 'cart'}
+ 🛒 CartOverlay - Professional cart state: {currentSlotId: 'D5', itemsCount: 3, subtotal: 520, total: 598, auditTrail: 2}
+ 🛒 CartOverlay - items: (3) [{…}, {…}, {…}]
+ 🛒 CartOverlay - items.length: 3
+ 🛒 CartOverlay - subtotal: 520
+ 💰 [PAYMENT LOGIC] {totalItems: 3, paidItems: 2, unpaidItems: 1, paidAmount: '500.00', unpaidAmount: '20.00', …}
+ 💰 [PAYMENT LOGIC] {totalItems: 3, paidItems: 2, unpaidItems: 1, paidAmount: '500.00', unpaidAmount: '20.00', …}
+ 🔥 [MENU PAGE] MenuPageContent component rendering...
+ 🔥 [MENU PAGE] MenuPageContent component rendering...
+ 🎨 Slot display - currentSlotInfo: {id: 'D5', number: '1', orderType: 'dine-in', status: 'processing', isActive: true, …} slotId: D5 displayValue: D5
+ 🎯 Badge render check: {cartItemsLength: 3, isCartOpen: true, shouldShow: false}
+ 🎨 Slot display - currentSlotInfo: {id: 'D5', number: '1', orderType: 'dine-in', status: 'processing', isActive: true, …} slotId: D5 displayValue: D5
+ 🎯 Badge render check: {cartItemsLength: 3, isCartOpen: true, shouldShow: false}
+ 🛒 CartOverlay rendered: {isOpen: true, slotId: 'D5', orderType: 'dine-in', mode: 'cart'}
+ 🛒 CartOverlay - Professional cart state: {currentSlotId: 'D5', itemsCount: 3, subtotal: 520, total: 598, auditTrail: 2}
+ 🛒 CartOverlay - items: (3) [{…}, {…}, {…}]
+ 🛒 CartOverlay - items.length: 3
+ 🛒 CartOverlay - subtotal: 520
+ 🛒 CartOverlay rendered: {isOpen: true, slotId: 'D5', orderType: 'dine-in', mode: 'cart'}
+ 🛒 CartOverlay - Professional cart state: {currentSlotId: 'D5', itemsCount: 3, subtotal: 520, total: 598, auditTrail: 2}
+ 🛒 CartOverlay - items: (3) [{…}, {…}, {…}]
+ 🛒 CartOverlay - items.length: 3
+ 🛒 CartOverlay - subtotal: 520
+ 🚀 [NAV INIT] Effect triggered - Navigation state initialized
+ 🧭 [NAVIGATION PARAMS] slot: D5 type: dine-in mode: edit
+ 🎯 [SLOT INIT] Setting slot ID to: D5
+ 🎯 [SLOT INIT] Calling setCurrentSlot with: D5
+ 🎯 [CART STORE] setCurrentSlot called with: D5
+ ✅ [CART STORE] Slot D5 set successfully
+ 🏷️ [ORDER TYPE] Set to: dine-in
+ ✏️ [EDIT MODE] Loading order for editing: D5
+ ✏️ [OVERLAY STORE] Loading ACTIVE draft order for editing, slot: D5
+ ✅ [OVERLAY STORE] Found active draft order in memory: 0573
+ 🔥 [MENU PAGE] MenuPageContent component rendering...
+ 🔥 [MENU PAGE] MenuPageContent component rendering...
+ 🎨 Slot display - currentSlotInfo: {id: 'D5', number: '1', orderType: 'dine-in', status: 'processing', isActive: true, …} slotId: D5 displayValue: D5
+ 🎯 Badge render check: {cartItemsLength: 3, isCartOpen: true, shouldShow: false}
+ 🎨 Slot display - currentSlotInfo: {id: 'D5', number: '1', orderType: 'dine-in', status: 'processing', isActive: true, …} slotId: D5 displayValue: D5
+ 🎯 Badge render check: {cartItemsLength: 3, isCartOpen: true, shouldShow: false}
+ 🛒 CartOverlay rendered: {isOpen: true, slotId: 'D5', orderType: 'dine-in', mode: 'cart'}
+ 🛒 CartOverlay - Professional cart state: {currentSlotId: 'D5', itemsCount: 3, subtotal: 520, total: 598, auditTrail: 2}
+ 🛒 CartOverlay - items: (3) [{…}, {…}, {…}]
+ 🛒 CartOverlay - items.length: 3
+ 🛒 CartOverlay - subtotal: 520
+ 🛒 CartOverlay rendered: {isOpen: true, slotId: 'D5', orderType: 'dine-in', mode: 'cart'}
+ 🛒 CartOverlay - Professional cart state: {currentSlotId: 'D5', itemsCount: 3, subtotal: 520, total: 598, auditTrail: 2}
+ 🛒 CartOverlay - items: (3) [{…}, {…}, {…}]
+ 🛒 CartOverlay - items.length: 3
+ 🛒 CartOverlay - subtotal: 520
+ 🔄 [CART] Loading existing order into slot: D5
+ 📦 [CART] Order items: 3 items
+ 💳 [CART] Payment status for loading: mixed
+ 🔑 [UNIQUE ID] Item 1: Sandwich - uniqueId: item-010-1760765127348-het5rfuek (preserved from overlay)
+ 📋 [CART ITEM 1] isModifierUpgrade: false
+ 🔑 [UNIQUE ID] Item 2: Latte - uniqueId: item-003-1760765136973-fdruu36n5 (preserved from overlay)
+ 📋 [CART ITEM 2] isModifierUpgrade: false
+ 🔑 [UNIQUE ID] Item 3: Latte (modifier upgrade) - uniqueId: item-003-1760765869205-f5t022nts (preserved from overlay)
+ 🔍 [LOAD DEBUG 3] Upgrade item FROM OVERLAY:
+   name: Latte (modifier upgrade)
+   isModifierUpgrade: undefined
+   typeof isModifierUpgrade: undefined
+   item.isModifierUpgrade === true: false
+ 🔒 [MODIFIER UPGRADE ITEM 3] Latte (modifier upgrade) - LOCKED FROM EDITING
+ 📋 [CART ITEM 3] isModifierUpgrade: true
+ 💰 [CART TOTALS] {subtotal: '520.00', tax: '78.00', total: '598.00', itemCount: 3}
+ 🎯 [ORDER ID SYNC] Setting cart order ID from existing order: 0573
+ 🎯 [CART] Set order ID for slot D5 : 0573
+ ✅ [CART] Successfully loaded existing order into cart
+ 🔥 [MENU PAGE] MenuPageContent component rendering...
+ 🔥 [MENU PAGE] MenuPageContent component rendering...
+ 🎨 Slot display - currentSlotInfo: {id: 'D5', number: '1', orderType: 'dine-in', status: 'processing', isActive: true, …} slotId: D5 displayValue: D5
+ 🎯 Badge render check: {cartItemsLength: 3, isCartOpen: true, shouldShow: false}
+ 🎨 Slot display - currentSlotInfo: {id: 'D5', number: '1', orderType: 'dine-in', status: 'processing', isActive: true, …} slotId: D5 displayValue: D5
+ 🎯 Badge render check: {cartItemsLength: 3, isCartOpen: true, shouldShow: false}
+ 🛒 CartOverlay rendered: {isOpen: true, slotId: 'D5', orderType: 'dine-in', mode: 'cart'}
+ 🛒 CartOverlay - Professional cart state: {currentSlotId: 'D5', itemsCount: 3, subtotal: 520, total: 598, auditTrail: 2}
+ 🛒 CartOverlay - items: (3) [{…}, {…}, {…}]
+ 🛒 CartOverlay - items.length: 3
+ 🛒 CartOverlay - subtotal: 520
+ 🛒 CartOverlay rendered: {isOpen: true, slotId: 'D5', orderType: 'dine-in', mode: 'cart'}
+ 🛒 CartOverlay - Professional cart state: {currentSlotId: 'D5', itemsCount: 3, subtotal: 520, total: 598, auditTrail: 2}
+ 🛒 CartOverlay - items: (3) [{…}, {…}, {…}]
+ 🛒 CartOverlay - items.length: 3
+ 🛒 CartOverlay - subtotal: 520
+ 💰 [PAYMENT LOGIC] {totalItems: 3, paidItems: 2, unpaidItems: 1, paidAmount: '500.00', unpaidAmount: '20.00', …}
+ 💰 [PAYMENT LOGIC] {totalItems: 3, paidItems: 2, unpaidItems: 1, paidAmount: '500.00', unpaidAmount: '20.00', …}

@@ -1,0 +1,408 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Light Theme (iPhone Inspired) */
+    --background: 0 0% 95%;
+    /* #F2F2F2 */
+    --foreground: 0 0% 0%;
+    /* #000000 (Soft black) */
+    --card: 240 5% 89%;
+    /* #E3E3E4 (Light Gray) */
+    --card-foreground: 0 0% 100%;
+    /* #FFFFFF (Swapped from secondary) */
+    --popover: 0 0% 100%;
+    /* #FFFFFF */
+    --popover-foreground: 0 0% 0%;
+    /* #000000 */
+    --primary: 45 65% 49%;
+    /* #D1AB35 - Gold (Brand) */
+    --primary-foreground: 0 0% 100%;
+    /* #FFFFFF */
+    --secondary: 0 0% 100%;
+    /* #FFFFFF (Swapped from card) */
+    --secondary-foreground: 0 0% 0%;
+    /* #000000 (Swapped from card) */
+    --muted: 0 0% 96.1%;
+    /* #F5F5F5 */
+    --muted-foreground: 0 0% 45.1%;
+    /* #737373 */
+    --accent: 0 0% 96.1%;
+    /* #F5F5F5 */
+    --accent-foreground: 0 0% 9%;
+    /* #171717 */
+    --destructive: 0 84.2% 60.2%;
+    /* #EF4444 */
+    --destructive-foreground: 0 0% 98%;
+    /* #FAFAFA */
+    --border: 0 0% 89.8%;
+    /* #E5E5E5 */
+    --input: 0 0% 89.8%;
+    /* #E5E5E5 */
+    --ring: 45 65% 49%;
+    /* #D1AB35 - Gold */
+    /* Status Colors */
+    --success: 165 82% 57%;
+    /* #44E9BA - Green */
+    --success-light: 165 82% 65%;
+    /* #50D1AA - Light Green */
+    --processing: 330 85% 88%;
+    /* #FAC2D9 - Pink */
+    --active: 270 100% 65%;
+    /* #9A4DFF - Purple */
+    --draft: 240 20% 87%;
+    /* #C9CAEE - Light Purple */
+    --warning: 45 65% 49%;
+    /* #D1AB35 - Gold */
+    /* Text Colors */
+    --text-primary: 0 0% 0%;
+    /* #000000 */
+    --text-secondary: 0 0% 63.5%;
+    /* #A2A2A2 */
+    --text-muted: 0 0% 40%;
+    --radius: 0.5rem;
+    /* Chart Colors */
+    --chart-1: 12 76% 61%;
+    --chart-2: 173 58% 39%;
+    --chart-3: 197 37% 24%;
+    --chart-4: 43 74% 66%;
+    --chart-5: 27 87% 67%;
+  }
+
+  .dark {
+    /* Dark Theme */
+    --background: 0 0% 8.6%;
+    /* #161616 */
+    --foreground: 0 0% 100%;
+    /* #FFFFFF */
+    --card: 0 0% 10.6%;
+    /* #1B1B1B (Swapped from secondary) */
+    --card-foreground: 0 0% 100%;
+    /* #FFFFFF */
+    --popover: 0 0% 13.3%;
+    /* #222222 */
+    --popover-foreground: 0 0% 100%;
+    /* #FFFFFF */
+    --primary: 45 65% 49%;
+    /* #D1AB35 - Gold */
+    --primary-foreground: 0 0% 3.9%;
+    /* #0A0A0A */
+    --secondary: 0 0% 13.3%;
+    /* #222222 (Swapped from card) */
+    --secondary-foreground: 0 0% 100%;
+    /* #FFFFFF */
+    --muted: 0 0% 10.6%;
+    /* #1B1B1B */
+    --muted-foreground: 0 0% 63.5%;
+    /* #A2A2A2 */
+    --accent: 0 0% 10.6%;
+    /* #1B1B1B */
+    --accent-foreground: 0 0% 100%;
+    /* #FFFFFF */
+    --destructive: 0 62.8% 30.6%;
+    /* #7F1D1D */
+    --destructive-foreground: 0 0% 100%;
+    /* #FFFFFF */
+    --border: 0 0% 17.6%;
+    /* #2D2D2D */
+    --input: 0 0% 28.2%;
+    /* #484848 */
+    --ring: 45 65% 49%;
+    /* #D1AB35 - Gold */
+    /* Status Colors */
+    --success: 165 82% 57%;
+    /* #44E9BA - Green */
+    --processing: 330 85% 88%;
+    /* #FAC2D9 - Pink */
+    --active: 270 100% 65%;
+    /* #9A4DFF - Purple */
+    --draft: 240 20% 87%;
+    /* #C9CAEE - Light Purple */
+    --warning: 45 65% 49%;
+    /* #D1AB35 - Gold */
+    /* Text Colors */
+    --text-primary: 0 0% 100%;
+    /* #FFFFFF */
+    --text-secondary: 0 0% 63.5%;
+    /* #A2A2A2 */
+    --text-muted: 0 0% 30.6%;
+    /* #4E4E50 */
+    /* Button Colors */
+    --button-default: 0 0% 13.3%;
+    /* #222222 */
+    --button-hover: 0 0% 10.6%;
+    /* #1B1B1B */
+    /* Input Colors */
+    --input-bg: 0 0% 16.5%;
+    /* #2A2A2A */
+    --input-text: 0 0% 87.8%;
+    /* #E0E6E9 */
+    /* Status Colors */
+    --success-light: 165 82% 57%;
+    /* #50D1AA */
+    --success-bg: 165 82% 57% 0.24;
+    /* rgba(107,226,190,0.24) */
+    --error-light: 0 84% 60%;
+    /* #FF383C */
+    --error-bg: 0 20% 20%;
+    /* #4B2F2F */
+    --info-light: 240 100% 67%;
+    /* #9290FE */
+    --info-bg: 240 100% 67% 0.2;
+    /* rgba(146,144,254,0.2) */
+    --warning-light: 45 65% 49%;
+    /* #B78700 */
+    --warning-bg: 45 65% 49% 0.2;
+    /* rgba(255,181,114,0.2) */
+    --neutral-light: 0 0% 63.5%;
+    /* #A2A2A2 */
+    --neutral-bg: 0 0% 26.3%;
+    /* #434141 */
+    /* Chart Colors */
+    --chart-1: 12 76% 61%;
+    --chart-2: 173 58% 39%;
+    --chart-3: 197 37% 24%;
+    --chart-4: 43 74% 66%;
+    --chart-5: 27 87% 67%;
+  }
+
+  /* Support both modes by default, controlled by class */
+  html {
+    color-scheme: light dark;
+  }
+
+  html.dark {
+    color-scheme: dark;
+  }
+
+  html,
+  body {
+    @apply bg-background text-foreground;
+    font-family: 'Allerta Stencil', sans-serif;
+    overflow-x: hidden;
+    /* Touch optimizations for tablet app */
+    -webkit-touch-callout: none;
+    /* iOS Safari */
+    -webkit-user-select: none;
+    /* Safari */
+    -khtml-user-select: none;
+    /* Konqueror HTML */
+    -moz-user-select: none;
+    /* Firefox */
+    -ms-user-select: none;
+    /* Internet Explorer/Edge */
+    user-select: none;
+    /* Non-prefixed version */
+    -webkit-tap-highlight-color: transparent;
+    /* Remove tap highlight on iOS */
+    touch-action: manipulation;
+    /* Optimize touch actions */
+  }
+
+  /* Hide scrollbars but keep functionality */
+  html::-webkit-scrollbar,
+  body::-webkit-scrollbar {
+    display: none;
+  }
+
+  html {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+  /* Touch-friendly button and interactive element styles */
+  button,
+  [role="button"],
+  .cursor-pointer {
+    min-height: 44px;
+    /* iOS recommended minimum touch target */
+    min-width: 44px;
+    touch-action: manipulation;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  /* Optimize for touch scrolling */
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    -webkit-overflow-scrolling: touch;
+    /* Smooth scrolling on iOS */
+  }
+
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+
+  /* Prevent text selection on interactive elements */
+  .select-none {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+
+  /* Touch manipulation for better performance */
+  .touch-manipulation {
+    touch-action: manipulation;
+  }
+
+  /* Enhanced timer border classes for processing orders */
+  .timer-border-green {
+    position: relative;
+    overflow: hidden;
+  }
+
+  .timer-border-green::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 8px;
+    height: 100%;
+    background: linear-gradient(180deg, hsl(var(--success)) 0%, hsl(var(--success-light)) 100%);
+    border-radius: 0 0.5rem 0.5rem 0;
+    box-shadow:
+      0 0 20px rgba(68, 233, 186, 0.6),
+      inset 0 0 0 1px rgba(68, 233, 186, 0.3);
+    animation: pulse-green 3s ease-in-out infinite;
+    z-index: 10;
+  }
+
+  .timer-border-yellow {
+    position: relative;
+    overflow: hidden;
+  }
+
+  .timer-border-yellow::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 8px;
+    height: 100%;
+    background: linear-gradient(180deg, hsl(var(--primary)) 0%, hsl(var(--warning)) 100%);
+    border-radius: 0 0.5rem 0.5rem 0;
+    box-shadow:
+      0 0 20px rgba(209, 171, 53, 0.6),
+      inset 0 0 0 1px rgba(209, 171, 53, 0.3);
+    animation: pulse-yellow 2.5s ease-in-out infinite;
+    z-index: 10;
+  }
+
+  .timer-border-red {
+    position: relative;
+    overflow: hidden;
+  }
+
+  .timer-border-red::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 8px;
+    height: 100%;
+    background: linear-gradient(180deg, hsl(var(--destructive)) 0%, hsl(var(--destructive)) 100%);
+    border-radius: 0 0.5rem 0.5rem 0;
+    box-shadow:
+      0 0 20px rgba(239, 68, 68, 0.6),
+      inset 0 0 0 1px rgba(239, 68, 68, 0.3);
+    animation: pulse-red 1.2s ease-in-out infinite;
+    z-index: 10;
+  }
+
+  /* Enhanced timer border animations */
+  @keyframes pulse-green {
+
+    0%,
+    100% {
+      opacity: 1;
+      transform: scaleY(1);
+    }
+
+    50% {
+      opacity: 0.8;
+      transform: scaleY(0.98);
+    }
+  }
+
+  @keyframes pulse-yellow {
+
+    0%,
+    100% {
+      opacity: 1;
+      transform: scaleY(1);
+    }
+
+    50% {
+      opacity: 0.85;
+      transform: scaleY(0.99);
+    }
+  }
+
+  @keyframes pulse-red {
+
+    0%,
+    100% {
+      opacity: 1;
+      transform: scaleY(1);
+    }
+
+    50% {
+      opacity: 0.7;
+      transform: scaleY(0.97);
+    }
+  }
+
+  /* Active state styles for touch feedback */
+  .active\:scale-95:active {
+    transform: scale(0.95);
+  }
+
+  .active\:scale-98:active {
+    transform: scale(0.98);
+  }
+
+  .active\:scale-99:active {
+    transform: scale(0.99);
+  }
+
+  .active\:shadow-inner:active {
+    box-shadow: inset 0 2px 4px 0 rgb(0 0 0 / 0.05);
+  }
+
+  .active\:bg-accent\/10:active {
+    background-color: hsl(var(--accent) / 0.1);
+  }
+
+  .active\:bg-accent\/15:active {
+    background-color: hsl(var(--accent) / 0.15);
+  }
+
+  .active\:bg-accent\/20:active {
+    background-color: hsl(var(--accent) / 0.2);
+  }
+}
+
+@layer utilities {
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+
+  /* Touch-specific utilities */
+  .touch-target {
+    min-height: 44px;
+    min-width: 44px;
+  }
+
+  .touch-feedback {
+    touch-action: manipulation;
+    -webkit-tap-highlight-color: transparent;
+  }
+}

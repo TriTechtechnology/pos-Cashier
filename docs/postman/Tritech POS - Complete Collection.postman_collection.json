@@ -1,0 +1,715 @@
+{
+	"info": {
+		"_postman_id": "783e69f7-8947-4d7f-b9d9-d9f8fcfed4f5",
+		"name": "Tritech POS - Complete Collection",
+		"description": "Recipe with Variants + POS Order Flow",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "48917537",
+		"_collection_link": "https://dkay042-3274752.postman.co/workspace/Faraz's-Workspace~976616b6-c854-4493-86ae-6b6ff1d9e4fc/collection/48917537-783e69f7-8947-4d7f-b9d9-d9f8fcfed4f5?action=share&source=collection_link&creator=48917537"
+	},
+	"item": [
+		{
+			"name": "1. Authentication",
+			"item": [
+				{
+					"name": "Admin Login",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"if (pm.response.code === 200) {",
+									"    const response = pm.response.json();",
+									"    pm.collectionVariables.set('jwt_token', response.result.token);",
+									"}"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"email\": \"admin@example.com\",\n  \"password\": \"password123\"\n}"
+						},
+						"url": {
+							"raw": "{{base_url}}/auth/login",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"auth",
+								"login"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Tenant Login",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"if (pm.response.code === 200) {",
+									"    const response = pm.response.json();",
+									"    pm.collectionVariables.set('jwt_token', response.result.token);",
+									"}"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							},
+							{
+								"key": "x-tenant-id",
+								"value": "{{tenant_id}}"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"email\": \"owner@acme.com\",\n  \"password\": \"password123\"\n}"
+						},
+						"url": {
+							"raw": "{{base_url}}/t/auth/login",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"t",
+								"auth",
+								"login"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Cashier PIN Login",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"if (pm.response.code === 200) {",
+									"    const response = pm.response.json();",
+									"    pm.collectionVariables.set('jwt_token', response.result.token);",
+									"}"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							},
+							{
+								"key": "x-tenant-id",
+								"value": "{{tenant_id}}"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"pin\": \"1234\",\n  \"branchId\": \"{{branch_id}}\",\n  \"posId\": \"{{pos_id}}\"\n}"
+						},
+						"url": {
+							"raw": "{{base_url}}/t/auth/login-pin",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"t",
+								"auth",
+								"login-pin"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "2. Recipe with Variants (NEW)",
+			"item": [
+				{
+					"name": "Create Recipe with Variants",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"if (pm.response.code === 201) {",
+									"    const response = pm.response.json();",
+									"    pm.collectionVariables.set('recipe_id', response.result.recipe._id);",
+									"}"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							},
+							{
+								"key": "x-tenant-id",
+								"value": "{{tenant_id}}"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"name\": \"Margherita Pizza\",\n  \"code\": \"PIZZA-001\",\n  \"description\": \"Classic Italian pizza with tomato sauce, mozzarella, and basil\",\n  \"type\": \"final\",\n  \"ingredients\": [\n    {\n      \"sourceType\": \"inventory\",\n      \"sourceId\": \"65a1234567890abcdef12345\",\n      \"quantity\": 200,\n      \"unit\": \"g\",\n      \"nameSnapshot\": \"Pizza Dough\"\n    },\n    {\n      \"sourceType\": \"inventory\",\n      \"sourceId\": \"65a1234567890abcdef12346\",\n      \"quantity\": 100,\n      \"unit\": \"g\",\n      \"nameSnapshot\": \"Tomato Sauce\"\n    },\n    {\n      \"sourceType\": \"inventory\",\n      \"sourceId\": \"65a1234567890abcdef12347\",\n      \"quantity\": 150,\n      \"unit\": \"g\",\n      \"nameSnapshot\": \"Mozzarella Cheese\"\n    }\n  ],\n  \"yield\": 1,\n  \"isActive\": true,\n  \"variations\": [\n    {\n      \"name\": \"Small (8 inch)\",\n      \"description\": \"Perfect for one person\",\n      \"type\": \"size\",\n      \"sizeMultiplier\": 0.7,\n      \"baseCostAdjustment\": 0,\n      \"isActive\": true\n    },\n    {\n      \"name\": \"Medium (12 inch)\",\n      \"description\": \"Standard size\",\n      \"type\": \"size\",\n      \"sizeMultiplier\": 1,\n      \"baseCostAdjustment\": 0,\n      \"isActive\": true\n    },\n    {\n      \"name\": \"Large (16 inch)\",\n      \"description\": \"Great for sharing\",\n      \"type\": \"size\",\n      \"sizeMultiplier\": 1.5,\n      \"baseCostAdjustment\": 0,\n      \"isActive\": true\n    }\n  ]\n}"
+						},
+						"url": {
+							"raw": "{{base_url}}/t/recipes/with-variants",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"t",
+								"recipes",
+								"with-variants"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create Coffee with Flavor Variants",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							},
+							{
+								"key": "x-tenant-id",
+								"value": "{{tenant_id}}"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"name\": \"Latte\",\n  \"code\": \"COFFEE-002\",\n  \"description\": \"Espresso with steamed milk\",\n  \"type\": \"final\",\n  \"ingredients\": [\n    {\n      \"sourceType\": \"inventory\",\n      \"sourceId\": \"65a1234567890abcdef12350\",\n      \"quantity\": 30,\n      \"unit\": \"ml\",\n      \"nameSnapshot\": \"Espresso\"\n    },\n    {\n      \"sourceType\": \"inventory\",\n      \"sourceId\": \"65a1234567890abcdef12351\",\n      \"quantity\": 200,\n      \"unit\": \"ml\",\n      \"nameSnapshot\": \"Milk\"\n    }\n  ],\n  \"yield\": 1,\n  \"variations\": [\n    {\n      \"name\": \"Vanilla Latte\",\n      \"description\": \"With vanilla syrup\",\n      \"type\": \"flavor\",\n      \"sizeMultiplier\": 1,\n      \"baseCostAdjustment\": 0.50,\n      \"ingredients\": [\n        {\n          \"sourceType\": \"inventory\",\n          \"sourceId\": \"65a1234567890abcdef12352\",\n          \"quantity\": 20,\n          \"unit\": \"ml\",\n          \"nameSnapshot\": \"Vanilla Syrup\"\n        }\n      ],\n      \"isActive\": true\n    },\n    {\n      \"name\": \"Caramel Latte\",\n      \"description\": \"With caramel syrup\",\n      \"type\": \"flavor\",\n      \"sizeMultiplier\": 1,\n      \"baseCostAdjustment\": 0.50,\n      \"ingredients\": [\n        {\n          \"sourceType\": \"inventory\",\n          \"sourceId\": \"65a1234567890abcdef12353\",\n          \"quantity\": 20,\n          \"unit\": \"ml\",\n          \"nameSnapshot\": \"Caramel Syrup\"\n        }\n      ],\n      \"isActive\": true\n    }\n  ]\n}"
+						},
+						"url": {
+							"raw": "{{base_url}}/t/recipes/with-variants",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"t",
+								"recipes",
+								"with-variants"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Recipe with Variants",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "x-tenant-id",
+								"value": "{{tenant_id}}"
+							}
+						],
+						"url": {
+							"raw": "{{base_url}}/t/recipes/{{recipe_id}}/with-variants",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"t",
+								"recipes",
+								"{{recipe_id}}",
+								"with-variants"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "3. POS Order Flow (ENHANCED)",
+			"item": [
+				{
+					"name": "Open Till Session",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"if (pm.response.code === 200) {",
+									"    const response = pm.response.json();",
+									"    pm.collectionVariables.set('jwt_token', response.result.token);",
+									"}"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							},
+							{
+								"key": "x-tenant-id",
+								"value": "{{tenant_id}}"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"branchId\": \"{{branch_id}}\",\n  \"posId\": \"{{pos_id}}\",\n  \"openingAmount\": 100.00,\n  \"notes\": \"Starting shift\"\n}"
+						},
+						"url": {
+							"raw": "{{base_url}}/t/pos/till/open",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"t",
+								"pos",
+								"till",
+								"open"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create Order (Simple)",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"if (pm.response.code === 201) {",
+									"    const response = pm.response.json();",
+									"    pm.collectionVariables.set('order_id', response.result.id);",
+									"}"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							},
+							{
+								"key": "x-tenant-id",
+								"value": "{{tenant_id}}"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"items\": [\n    {\n      \"menuItemId\": \"{{menu_item_id}}\",\n      \"quantity\": 2,\n      \"notes\": \"No onions\"\n    }\n  ],\n  \"customerName\": \"Walk-in Customer\",\n  \"paymentMethod\": \"cash\",\n  \"amountPaid\": 50.00\n}"
+						},
+						"url": {
+							"raw": "{{base_url}}/t/pos/orders",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"t",
+								"pos",
+								"orders"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create Order with Auto-Receipt (HTML)",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"if (pm.response.code === 201) {",
+									"    const response = pm.response.json();",
+									"    pm.collectionVariables.set('order_id', response.result.id);",
+									"    console.log('Receipt HTML:', response.result.receipt.content);",
+									"}"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							},
+							{
+								"key": "x-tenant-id",
+								"value": "{{tenant_id}}"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"items\": [\n    {\n      \"menuItemId\": \"{{menu_item_id}}\",\n      \"quantity\": 2\n    }\n  ],\n  \"customerName\": \"Ahmed Ali\",\n  \"customerPhone\": \"+966501234567\",\n  \"paymentMethod\": \"cash\",\n  \"amountPaid\": 50.00\n}"
+						},
+						"url": {
+							"raw": "{{base_url}}/t/pos/orders?printReceipt=true&receiptFormat=html",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"t",
+								"pos",
+								"orders"
+							],
+							"query": [
+								{
+									"key": "printReceipt",
+									"value": "true"
+								},
+								{
+									"key": "receiptFormat",
+									"value": "html"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create Order with Auto-Receipt (Thermal)",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							},
+							{
+								"key": "x-tenant-id",
+								"value": "{{tenant_id}}"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"items\": [\n    {\n      \"menuItemId\": \"{{menu_item_id}}\",\n      \"quantity\": 1\n    }\n  ],\n  \"paymentMethod\": \"card\",\n  \"amountPaid\": 25.00\n}"
+						},
+						"url": {
+							"raw": "{{base_url}}/t/pos/orders?printReceipt=true&receiptFormat=thermal",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"t",
+								"pos",
+								"orders"
+							],
+							"query": [
+								{
+									"key": "printReceipt",
+									"value": "true"
+								},
+								{
+									"key": "receiptFormat",
+									"value": "thermal"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "List Orders (Today)",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "x-tenant-id",
+								"value": "{{tenant_id}}"
+							}
+						],
+						"url": {
+							"raw": "{{base_url}}/t/pos/orders?page=1&limit=20&sort=createdAt&order=desc",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"t",
+								"pos",
+								"orders"
+							],
+							"query": [
+								{
+									"key": "page",
+									"value": "1"
+								},
+								{
+									"key": "limit",
+									"value": "20"
+								},
+								{
+									"key": "sort",
+									"value": "createdAt"
+								},
+								{
+									"key": "order",
+									"value": "desc"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "List Orders (Filtered)",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "x-tenant-id",
+								"value": "{{tenant_id}}"
+							}
+						],
+						"url": {
+							"raw": "{{base_url}}/t/pos/orders?branchId={{branch_id}}&status=paid&startDate=2024-01-15T00:00:00Z&endDate=2024-01-15T23:59:59Z",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"t",
+								"pos",
+								"orders"
+							],
+							"query": [
+								{
+									"key": "branchId",
+									"value": "{{branch_id}}"
+								},
+								{
+									"key": "status",
+									"value": "paid"
+								},
+								{
+									"key": "startDate",
+									"value": "2024-01-15T00:00:00Z"
+								},
+								{
+									"key": "endDate",
+									"value": "2024-01-15T23:59:59Z"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Order Details",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "x-tenant-id",
+								"value": "{{tenant_id}}"
+							}
+						],
+						"url": {
+							"raw": "{{base_url}}/t/pos/orders/{{order_id}}",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"t",
+								"pos",
+								"orders",
+								"{{order_id}}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Receipt (HTML)",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "x-tenant-id",
+								"value": "{{tenant_id}}"
+							}
+						],
+						"url": {
+							"raw": "{{base_url}}/t/pos/orders/{{order_id}}/receipt?format=html",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"t",
+								"pos",
+								"orders",
+								"{{order_id}}",
+								"receipt"
+							],
+							"query": [
+								{
+									"key": "format",
+									"value": "html"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Print Receipt (Thermal)",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							},
+							{
+								"key": "x-tenant-id",
+								"value": "{{tenant_id}}"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"format\": \"thermal\"\n}"
+						},
+						"url": {
+							"raw": "{{base_url}}/t/pos/orders/{{order_id}}/print",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"t",
+								"pos",
+								"orders",
+								"{{order_id}}",
+								"print"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Close Till Session",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							},
+							{
+								"key": "x-tenant-id",
+								"value": "{{tenant_id}}"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"declaredClosingAmount\": 1547.50,\n  \"systemClosingAmount\": 1550.00,\n  \"cashCounts\": {\n    \"500\": 2,\n    \"100\": 5,\n    \"50\": 4,\n    \"20\": 10,\n    \"10\": 5,\n    \"5\": 9,\n    \"1\": 2\n  },\n  \"notes\": \"End of shift\"\n}"
+						},
+						"url": {
+							"raw": "{{base_url}}/t/pos/till/close",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"t",
+								"pos",
+								"till",
+								"close"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	],
+	"auth": {
+		"type": "bearer",
+		"bearer": [
+			{
+				"key": "token",
+				"value": "{{jwt_token}}",
+				"type": "string"
+			}
+		]
+	},
+	"variable": [
+		{
+			"key": "base_url",
+			"value": "http://localhost:3000",
+			"type": "string"
+		},
+		{
+			"key": "tenant_id",
+			"value": "acme",
+			"type": "string"
+		},
+		{
+			"key": "jwt_token",
+			"value": "",
+			"type": "string"
+		},
+		{
+			"key": "branch_id",
+			"value": "",
+			"type": "string"
+		},
+		{
+			"key": "pos_id",
+			"value": "",
+			"type": "string"
+		},
+		{
+			"key": "recipe_id",
+			"value": "",
+			"type": "string"
+		},
+		{
+			"key": "menu_item_id",
+			"value": "",
+			"type": "string"
+		},
+		{
+			"key": "order_id",
+			"value": "",
+			"type": "string"
+		}
+	]
+}

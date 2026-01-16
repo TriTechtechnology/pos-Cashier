@@ -1,0 +1,55 @@
+{
+	"info": {
+		"_postman_id": "0f71573d-617d-469b-a26e-25509a387719",
+		"name": "Tenant Auth - Cashier PIN Login",
+		"description": "Sample request for logging in a branch cashier/staff with PIN.",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "12222084",
+		"_collection_link": "https://planetary-star-331194.postman.co/workspace/New-Team-Workspace~e46bd8d0-6848-4740-94c5-ef04ec2c9f8a/collection/12222084-0f71573d-617d-469b-a26e-25509a387719?action=share&source=collection_link&creator=12222084"
+	},
+	"item": [
+		{
+			"name": "POST /t/auth/login-pin",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "x-tenant-id",
+						"value": "extraction-testt",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"pin\": \"1122\",\n  \"branchId\": \"6900fbcf933c89883c6d21a3\",\n  \"posId\": \"\",\n  \"defaultBranchId\": \"6900fbcf933c89883c6d21a3\"\n}"
+				},
+				"url": {
+					"raw": "https://api.tritechtechnologyllc.com/t/auth/login-pin",
+					"protocol": "https",
+					"host": [
+						"api",
+						"tritechtechnologyllc",
+						"com"
+					],
+					"path": [
+						"t",
+						"auth",
+						"login-pin"
+					]
+				},
+				"description": "Authenticate a staff user via PIN. `branchId` is required for branch-scoped staff unless they have tenant-wide access. `posId` and `defaultBranchId` are optional metadata carried into the JWT."
+			},
+			"response": []
+		}
+	],
+	"variable": [
+		{
+			"key": "base_url",
+			"value": "http://localhost:3000"
+		}
+	]
+}
